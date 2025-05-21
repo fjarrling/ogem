@@ -1,0 +1,116 @@
+@use '@/styles/helpers' as *;
+
+.mobileOverlay {
+  position: fixed;
+  top: var(--header-height);
+  right: 0;
+  z-index: 10;
+  overflow: auto;
+  overflow-x: hidden;
+  width: 96%;
+  background-color: var(--color-white);
+  border-left: rem(1) solid var(--color-gray-light);
+  border-bottom: rem(1) solid var(--color-gray-light);
+  border-bottom-left-radius: rem(20);
+
+  @include hide;
+  transform: translateX(100%);
+  transition-duration: var(--transition-duration);
+  pointer-events: none;
+
+  &.active {
+    @include show;
+    transform: translateX(0);
+    pointer-events: auto;
+  }
+
+
+  &Inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+    padding: rem(36) rem(28) rem(40);
+  }
+
+  &Menu {
+    &List {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: rem(28);
+    }
+
+    &Link {
+      @include reset-button;
+      @include flex-center;
+      font-size: rem(14);
+      font-weight: 500;
+      line-height: rem(22);
+      color: var(--color-black);
+
+      @include hover {
+        color: var(--color-red);
+      }
+
+      &.active {
+        color: var(--color-red);
+
+      }
+    }
+  }
+
+  &Button {
+  }
+
+  &Logo {
+    width: rem(62);
+    height: rem(40);
+    margin-bottom: rem(28);
+  }
+
+  &Separator {
+    height: rem(1);
+    width: 100%;
+    margin-block: rem(36);
+    background-color: var(--color-gray-light);
+  }
+
+  &Accordion {
+    &Button {
+      padding: 0;
+      gap: rem(8) !important;
+      justify-content: center;
+      font-size: rem(14);
+
+    }
+
+    &Inner {
+      padding: 0;
+    }
+
+    &List {
+      opacity: 1;
+      margin-top: rem(14);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: rem(14);
+
+    }
+
+    &Item {
+
+    }
+
+    &Link {
+      font-size: rem(14);
+      font-weight: 500;
+      line-height: rem(28);
+
+    }
+  }
+}

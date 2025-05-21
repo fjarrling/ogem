@@ -1,0 +1,115 @@
+@use '@/styles/helpers' as *;
+
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: rem(22);
+
+  @include tablet {
+    margin-bottom: rem(16);
+  }
+
+  @include mobile {
+    margin-bottom: rem(12);
+  }
+
+  label {
+    font-size: rem(14);
+    font-weight: 500;
+    line-height: rem(28);
+    margin-bottom: rem(10);
+
+    @include tablet {
+      margin-bottom: rem(8);
+    }
+
+    @include mobile {
+      margin-bottom: rem(4);
+      font-size: rem(12);
+    }
+  }
+
+
+  textarea {
+    min-height: rem(144);
+    resize: none;
+    background-color: var(--color-white);
+
+    @include tablet {
+      max-height: rem(112);
+    }
+
+    &:focus-visible {
+      outline: none;
+      box-shadow: none;
+    }
+  }
+}
+
+.double {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: rem(52);
+
+  @include tablet {
+    gap: rem(16);
+  }
+
+  @include mobile {
+    grid-template-columns: 1fr;
+    gap: rem(12);
+  }
+}
+
+.checkbox {
+  display: flex;
+  align-items: center;
+  gap: rem(12);
+  font-size: rem(14);
+  font-weight: 500;
+  line-height: rem(28);
+  color: var(--color-black);
+  margin-top: rem(8);
+  margin-bottom: rem(28);
+
+  @include mobile {
+    align-items: stretch;
+    font-size: rem(12);
+    button {
+      margin-top: rem(7);
+    }
+  }
+}
+
+.submit {
+  min-width: rem(170);
+  align-self: flex-start;
+
+  @include mobile {
+    align-self: center;
+    max-width: 100%;
+    width: 100%;
+  }
+}
+
+.error {
+  margin-top: rem(8);
+  font-size: 0.75rem;
+  color: red;
+
+  &Submit {
+    margin-bottom: rem(8);
+    font-size: 0.75rem;
+    color: red;
+  }
+}
+
+.inputError {
+  outline: rem(1) solid var(--color-red);
+}

@@ -1,0 +1,93 @@
+@use '@/styles/helpers' as *;
+
+
+.cacao {
+  &Container {
+  }
+
+  &Inner {
+    display: flex;
+    flex-direction: column;
+    padding-block: rem(38);
+    gap: rem(38);
+    @include tablet {
+      padding-block: rem(26);
+      gap: rem(26);
+    }
+
+    @include mobile {
+      padding-block: rem(18);
+    }
+  }
+
+  &Body {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+
+    @include tablet {
+      grid-template-columns: 1fr;
+      gap: rem(16);
+    }
+  }
+
+  &Column {
+    display: flex;
+    flex-direction: column;
+    gap: rem(22)
+  }
+
+  &Block {
+
+    &Text {
+      font-size: rem(16);
+      font-weight: 500;
+    }
+
+
+    &Title {
+      font-size: rem(20);
+      font-weight: 600;
+      line-height: rem(24);
+      margin-bottom: rem(16);
+      color: var(--color-red);
+    }
+
+    ul {
+      list-style: disc inside;
+      padding-left: rem(8);
+    }
+
+    ol {
+      list-style: decimal inside;
+      font-weight: 600;
+
+      > li {
+        padding-left: rem(6);
+        margin-bottom: rem(16);
+
+        ul {
+          margin-top: rem(16);
+          font-weight: 500;
+        }
+      }
+    }
+  }
+
+  &Image {
+    border-radius: rem(20);
+    overflow: hidden;
+
+    @include tablet {
+      height: rem(490);
+      img {
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+
+    @include mobile {
+      height: rem(328);
+    }
+  }
+}

@@ -1,0 +1,109 @@
+@use '@/styles/helpers' as *;
+
+.buttonBlack {
+  background-color: var(--color-black);
+  color: var(--color-white);
+  padding: rem(12) rem(18);
+  border-radius: rem(40);
+  height: auto;
+
+  font-weight: 500;
+  line-height: 1.5;
+
+
+  @include tablet {
+    padding: rem(10) rem(16);
+    font-size: rem(14);
+
+  }
+  @include hover {
+    background-color: #4A4A4A;
+  }
+
+}
+
+.buttonRed {
+  background-color: var(--color-red);
+  color: var(--color-white);
+  padding: rem(13) rem(31);
+  border: rem(1) solid var(--color-red);
+  border-radius: rem(40);
+  height: auto;
+
+  text-transform: uppercase;
+  line-height: 1.5;
+  font-weight: 600;
+
+  @include hover {
+    background-color: var(--color-red-dark);
+    border-color: var(--color-red);
+  }
+
+  @include tablet {
+    font-size: rem(14);
+    padding: rem(9) rem(15);
+
+  }
+
+  @include mobile {
+    padding: rem(11) rem(17);
+
+  }
+}
+
+.buttonWithIcon {
+  background-color: var(--color-red);
+  color: var(--color-white);
+  padding: rem(13) rem(31);
+  border: rem(1) solid var(--color-red);
+  border-radius: rem(40);
+  height: auto;
+
+  line-height: 1.5;
+  font-weight: 600;
+  font-size: rem(16);
+  gap: rem(10);
+
+  svg {
+    @include square(rem(30))
+  }
+
+  @include hover {
+    background-color: var(--color-red-dark);
+    border-color: var(--color-red);
+  }
+
+  @include tablet {
+    font-size: rem(14);
+    padding: rem(9) rem(15);
+
+  }
+
+  @include mobile {
+    padding: rem(11) rem(17);
+
+  }
+}
+
+.buttonTransparent {
+  background-color: transparent;
+  padding: rem(13) rem(31);
+  border: rem(1) solid var(--color-black);
+  border-radius: rem(40);
+  height: auto;
+
+  font-size: rem(16);
+  line-height: 1.5;
+  color: var(--color-black);
+  font-weight: 600;
+
+  @include mobile {
+    font-size: rem(14);
+    padding: rem(11) rem(31);
+
+  }
+
+  @include hover {
+    background-color: var(--color-yellow-bg);
+  }
+}

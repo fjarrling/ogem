@@ -1,0 +1,107 @@
+@use '@/styles/helpers' as *;
+
+.footer {
+  background-color: var(--color-bg);
+
+  &Inner {
+    @include flex-center;
+    flex-direction: column;
+    padding-block: rem(48);
+
+    @include tablet {
+      padding-block: rem(40) rem(30);
+    }
+  }
+
+  &Logo {
+    margin-bottom: rem(50);
+
+    @include tablet {
+      margin-bottom: rem(40);
+    }
+
+    @include mobile {
+      margin-bottom: rem(28);
+    }
+
+    img {
+      width: rem(80);
+      height: rem(52);
+
+      @include mobile {
+        width: rem(63);
+        height: rem(41);
+      }
+    }
+  }
+
+  &Menu {
+    &List {
+      display: flex;
+      align-items: center;
+      gap: rem(95);
+      @include tablet {
+        gap: rem(54);
+      }
+
+      @include mobile {
+        flex-direction: column;
+        gap: rem(18);
+      }
+    }
+
+    &Item {
+      font-weight: 500;
+      line-height: rem(28);
+
+      @include tablet {
+        font-size: rem(12);
+      }
+
+      @include hover {
+        color: var(--color-red);
+      }
+    }
+
+    &Link {
+      &Active {
+        color: var(--color-red);
+      }
+    }
+  }
+
+  &Separator {
+    height: rem(1);
+    width: 100%;
+    margin-block: rem(26) rem(40);
+    background-color: var(--color-gray-light);
+
+    @include tablet {
+      margin-block: rem(20) rem(30);
+    }
+
+    @include mobile {
+      margin-block: rem(40) rem(30);
+    }
+  }
+
+  &Copyright {
+    background-color: var(--color-gray-bg);
+
+    padding-block: rem(28);
+    text-align: center;
+    font-size: rem(16);
+    font-weight: 500;
+    line-height: rem(28);
+    color: #898989;
+
+    @include tablet {
+      padding-block: rem(20);
+      font-size: rem(14);
+    }
+
+    @include mobile {
+      font-size: rem(12);
+    }
+  }
+}

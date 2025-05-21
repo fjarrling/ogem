@@ -1,0 +1,42 @@
+@use '@/styles/helpers' as *;
+
+:root {
+  & {
+    --color-white: #ffffff;
+    --color-bg: #F5F5F5;
+    --color-black: #181818;
+
+    --color-red: #ED4C5C;
+    --color-red-dark: #C11920;
+
+    --color-gray: #4A4A4A;
+    --color-gray-light: #D7D7D7;
+    --color-gray-bg: #EAEAEA;
+
+    --color-yellow-bg: #FFF7EA;
+
+    --color-orange: #ED9A4C;
+
+    --font-family-base: 'Montserrat', sans-serif;
+    --font-family-alt: 'Gotham', sans-serif;
+
+    --container-width: #{rem(1680)};
+    --container-padding-x: #{rem(20)};
+
+    --transition-duration: 0.4s;
+
+    --100vw: calc(100vw - var(--scrollbar-width));
+
+    --header-height: #{rem(80)};
+
+
+    @include tablet {
+      --container-padding-x: #{rem(17)};
+    }
+
+    @include mobile {
+      --container-padding-x: #{rem(16)};
+      --header-height: #{rem(64)};
+    }
+  }
+}

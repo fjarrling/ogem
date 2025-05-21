@@ -1,0 +1,48 @@
+@use "@/styles/helpers" as *;
+
+.policy {
+  &Container {
+    max-width: rem(1440) !important;
+
+  }
+
+  &Inner {
+    padding-block: rem(64);
+
+    @include tablet {
+      padding-block: rem(32);
+    }
+  }
+
+  h3 {
+    font-size: rem(32);
+    font-weight: 600;
+    //color: var(--color-red);
+    margin-bottom: rem(32);
+    &:not(:first-of-type) {
+      margin-top: rem(32);
+    }
+  }
+
+  h4 {
+    font-size: rem(24);
+    color: var(--color-red);
+    font-weight: 600;
+    margin-bottom: rem(24);
+  }
+
+  p {
+    font-size: rem(16);
+    font-weight: 600;
+    margin-bottom: rem(16);
+  }
+  ul {
+    list-style: disc outside;
+    padding-left: 1.5rem;
+    font-weight: 600;
+    margin-bottom: rem(16);
+  }
+  a {
+    color: deepskyblue;
+  }
+}

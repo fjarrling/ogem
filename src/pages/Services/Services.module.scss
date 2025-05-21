@@ -1,0 +1,89 @@
+@use '@/styles/helpers' as *;
+
+.services {
+  &Container {
+
+  }
+
+  &Inner {
+    padding-block: rem(60);
+
+    @include tablet {
+      padding-block: rem(26);
+    }
+
+    @include mobile {
+      padding-block: rem(18);
+
+    }
+  }
+
+  &List {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: rem(36);
+
+    @include tablet {
+      gap: rem(16);
+    }
+
+    @include mobile {
+      grid-template-columns: 1fr;
+      gap: rem(18);
+    }
+  }
+
+  &Item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: rem(24);
+    background-color: var(--color-white);
+    padding: rem(48) rem(64);
+    border-radius: rem(20);
+    box-shadow: 0 rem(2) rem(14) 0 rgba(146, 146, 146, 0.25);
+    text-align: center;
+    @include tablet {
+      padding: rem(30);
+      gap: rem(10);
+    }
+
+    @include mobile {
+
+    }
+
+    &Icon {
+      @include square(rem(64));
+
+      @include tablet {
+        @include square(rem(48))
+
+      }
+    }
+
+    &Title {
+      text-transform: uppercase;
+      font-size: rem(18);
+      font-weight: 700;
+      line-height: rem(28);
+      @include tablet {
+        font-size: rem(16);
+      }
+    }
+
+    &Text {
+      font-size: rem(18);
+      font-weight: 500;
+      line-height: rem(28);
+
+      @include tablet {
+        font-size: rem(14);
+        line-height: rem(24);
+      }
+
+      @include mobile {
+        font-size: rem(12);
+      }
+    }
+  }
+}

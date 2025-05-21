@@ -1,0 +1,227 @@
+@use '@/styles/helpers' as *;
+
+.product {
+  &Container {
+
+  }
+
+  &Inner {
+    padding-block: rem(20);
+
+    @include tablet {
+      padding-block: rem(26);
+    }
+
+    @include mobile {
+      padding-block: rem(18);
+    }
+  }
+
+  &Image {
+    height: rem(744);
+    border-radius: rem(20);
+    overflow: hidden;
+    margin-bottom: rem(20);
+
+    @include tablet {
+      height: rem(325);
+    }
+
+    @include mobile {
+      height: rem(176);
+    }
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  &Info {
+    display: flex;
+    gap: rem(20);
+
+    margin-bottom: rem(38);
+
+
+    @include laptop {
+      flex-direction: column;
+    }
+
+    @include tablet {
+      margin-bottom: rem(26);
+    }
+
+    @include mobile {
+      margin-bottom: rem(18);
+    }
+
+    &Block {
+      border-radius: rem(20);
+      padding: rem(40);
+
+      &:only-child {
+        width: 100%;
+      }
+
+      &:nth-child(1):nth-last-child(2) {
+        width: 60%;
+        background-color: var(--color-yellow-bg);
+      }
+
+      &:nth-child(2):nth-last-child(1) {
+        width: 40%;
+        background-color: var(--color-bg);
+
+      }
+
+      @include laptop {
+        padding: rem(32);
+        width: 100% !important;
+      }
+
+      @include mobile {
+        padding: rem(16);
+      }
+
+      &Title {
+        font-size: rem(20);
+        font-weight: 600;
+        margin-bottom: rem(22);
+        color: var(--color-red);
+
+        @include mobile {
+          margin-bottom: rem(18);
+        }
+      }
+
+      &Text {
+        font-weight: 500;
+        line-height: rem(24);
+
+        &:not(:last-child) {
+          margin-bottom: rem(20);
+        }
+
+        @include mobile {
+          font-size: rem(14);
+          &:not(:last-child) {
+            margin-bottom: rem(16);
+          }
+        }
+      }
+
+      ul {
+        list-style: disc outside;
+        padding-left: rem(24);
+
+        li {
+
+        }
+      }
+    }
+  }
+
+  &Title {
+    font-size: rem(26);
+    font-weight: 600;
+    margin-bottom: rem(16);
+
+    @include tablet {
+      text-align: center;
+      margin-bottom: rem(14);
+    }
+    @include mobile {
+      font-size: rem(20);
+      margin-bottom: rem(22);
+    }
+  }
+
+  &Subtitle {
+    font-size: rem(16);
+    color: var(--color-red);
+    font-weight: 500;
+    margin-bottom: rem(26);
+    @include tablet {
+      text-align: center;
+      margin-bottom: rem(24);
+    }
+    @include mobile {
+      margin-bottom: rem(18);
+    }
+  }
+
+  &Text {
+    font-weight: 500;
+    margin-bottom: rem(24);
+
+    @include mobile {
+      font-size: rem(14);
+    }
+  }
+
+  &Table {
+    width: 100%;
+    border: rem(1) solid #A0A0A0;
+    border-radius: rem(20);
+    margin-bottom: rem(38);
+    border-collapse: separate;
+    border-spacing: 0;
+    overflow: hidden;
+
+    @include tablet {
+      margin-bottom: rem(30);
+    }
+
+    @include mobile {
+      margin-bottom: rem(18);
+    }
+
+    tr {
+      &:not(:last-child) {
+        td {
+          border-bottom: rem(1) solid #A0A0A0;
+        }
+      }
+    }
+
+    td {
+      width: 50%;
+      padding: rem(28) rem(38);
+      font-size: rem(20);
+      font-weight: 500;
+      border-right: rem(1) solid #A0A0A0;
+
+      &:last-child {
+        border-right: none;
+      }
+
+      @include tablet {
+        padding: rem(22);
+        font-size: rem(18);
+      }
+
+      @include mobile {
+        padding: rem(16) rem(18);
+        font-size: rem(12);
+      }
+    }
+  }
+
+  &DownloadButton {
+    display: flex;
+    max-width: max-content;
+    align-self: center;
+    margin-inline: auto;
+    margin-top: rem(38);
+
+    @include tablet {
+      margin-top: rem(30);
+    }
+
+    @include mobile-s {
+      max-width: none;
+    }
+  }
+}

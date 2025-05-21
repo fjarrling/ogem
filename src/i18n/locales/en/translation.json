@@ -1,0 +1,900 @@
+{
+  "footer": {
+    "copyright": "Copyright © {{year}} OGEM. All rights reserved."
+  },
+  "navigation": {
+    "home": "Home",
+    "about": "About Us",
+    "products_services": "Products & Services",
+    "contact": "Contact Us",
+    "policy": "Privacy & Cookie Policy",
+    "links": {
+      "cacao_beans": "Cacao Beans",
+      "energy_products": "Energy and Related Products",
+      "commodities": "Commodities",
+      "food_agriculture": "Food and Agriculture",
+      "construction_equipment": "Construction Equipment",
+      "production_equipment": "Production Equipment",
+      "view_all_products": "View all products",
+      "services": "Services"
+    }
+  },
+  "routes": {
+    "products": "Products"
+  },
+  "buttons": {
+    "appeal": "Online appeal",
+    "cooperation": "Start cooperation",
+    "read_more": "Read more",
+    "view_more": "View more",
+    "download_presentation": "Download presentation"
+  },
+  "forms": {
+    "online_appeal": {
+      "title": "Online appeal",
+      "subtitle": " If you still have questions, use this form"
+    },
+    "name": {
+      "label": "Full name*",
+      "error": {
+        "min": "Full name must be at least 2 characters",
+        "max": "Full name is too long"
+      }
+    },
+    "organization_name": {
+      "label": "Organization name",
+      "error": {
+        "min": "Organization name must be at least 2 characters",
+        "max": "Organization name is too long"
+      }
+    },
+    "email": {
+      "label": "Email address*",
+      "error": "Invalid email address"
+    },
+    "phone_number": {
+      "label": "Phone number*",
+      "error": "Invalid phone number"
+    },
+    "message": {
+      "label": "Your message",
+      "error": {
+        "min": "Message must be at least 10 characters",
+        "max": "Message is too long"
+      }
+    },
+    "consent": {
+      "label": "By submitting an application, you consent to the processing of your personal data",
+      "error": "You must consent before submitting"
+    },
+    "submit": "Send"
+  },
+  "emails": {
+    "support": "support@ogem.uk"
+  },
+  "home": {
+    "hero": {
+      "subtitle": "Agricultural machinery, transport services, grain trade",
+      "title": "Agricultural commodities and renewable energy technologies",
+      "text": "Leave a request for cooperation, and we will provide you with tailored solutions in agriculture and renewable energy"
+    },
+    "info": {
+      "title": "The Direction of the Company’s Activity",
+      "text_1": "At OGEM Canada, we specialize in the international trade of agricultural products and renewable energy technologies.",
+      "text_2": "Our key strengths include a highly experienced team, a wide network of reliable partners, and a commitment to quality and sustainability."
+    },
+    "focus": {
+      "title": "We focus on:",
+      "items": {
+        "1": "Export and wholesale of grains, oilseeds, legumes, and agricultural by-products",
+        "2": "Supply of agricultural machinery and transport logistics",
+        "3": "Solutions in renewable energy: solar panels, energy storage systems, and agro-energy infrastructure"
+      },
+      "text": "Our mission is to provide sustainable, efficient, and future-ready solutions that meet the evolving demands of global agriculture and green energy markets."
+    },
+    "articles": {
+      "about": {
+        "title": "About Us",
+        "text": [
+          "O’GEM Canada is a trading and logistics company specializing in the international supply of agricultural commodities and renewable energy solutions. Headquartered in Canada, we bring together expertise in agri-business, clean technologies, and cross-border commerce to support sustainable growth for our partners worldwide.",
+          "Our mission is to build a more resilient and responsible future by delivering high-quality agricultural goods — such as grains, oilseeds, and legumes — alongside advanced energy solutions, including solar equipment, energy storage, and agro-energy infrastructure.",
+          "Backed by a professional team and an international partner network, we combine strategic thinking with operational precision. We understand the importance of reliability, transparency, and long-term trust — values that shape everything we do.",
+          "Whether you’re looking for efficient sourcing, supply chain support, or innovative energy tools for agricultural development, O’GEM Canada is your trusted partner in building a greener and more productive future."
+        ]
+      },
+      "products": {
+        "title": "Products",
+        "text": [
+          "At O’GEM Canada, we specialize in the international trade of agricultural products and renewable energy solutions. Our company operates with a clear focus on sustainability, providing high-quality grains, oilseeds, legumes, and related agricultural by-products to global markets. We also offer reliable logistics services and supply modern agricultural machinery to support the efficiency and productivity of our partners.",
+          "In line with our commitment to innovation and environmental responsibility, we actively develop and distribute renewable energy technologies. These include solar panels, energy storage systems, and agro-energy infrastructure that enable agricultural businesses to reduce their environmental impact and optimize their energy use.",
+          "By combining deep market knowledge, a strong international network, and a forward-looking approach, O’GEM Canada supports the transition toward cleaner, more sustainable industries. We aim to build long-term partnerships based on trust, transparency, and shared goals for a greener future."
+        ]
+      },
+      "energy": {
+        "title": "Energy and Related Products",
+        "text": [
+          "The global shift toward sustainable development requires clean, efficient, and renewable energy solutions. At O’GEM Canada, we support this transition by offering modern technologies that help reduce environmental impact and improve energy efficiency.",
+          "Our range includes solar energy systems for both residential and industrial use, wind generators of various capacities, and reliable energy storage solutions. These technologies are designed to meet the growing demand for decentralized, eco-friendly power in agricultural and rural infrastructure.",
+          "We work closely with our clients to develop tailored energy strategies that integrate seamlessly into existing operations, supporting both environmental goals and long-term cost efficiency."
+        ]
+      },
+      "commodities": {
+        "title": "Commodities",
+        "text": [
+          "At O’GEM Canada, we operate in the dynamic global commodities market with a focused approach to agricultural goods and renewable energy technologies. Our mission is to create secure and efficient supply chains that serve the needs of both emerging and established markets.",
+          "We specialize in the export and wholesale distribution of grains, oilseeds, legumes, and agricultural by-products. Each shipment is backed by strict quality control, competitive pricing, and full transparency at every stage of the transaction. Whether it’s bulk shipping, containerized freight, or customized procurement requests, our team delivers reliable results.",
+          "In addition to agricultural trade, we offer equipment and components for renewable energy projects — including solar panels, wind turbines, and energy storage solutions. These products are selected to meet the demands of agricultural producers, industrial clients, and energy cooperatives aiming to integrate sustainable practices into their operations."
+        ]
+      }
+    },
+    "service": {
+      "title": "Service",
+      "subtitle": "We provide the following services",
+      "items": {
+        "quality": {
+          "title": "Service Delivery and Quality Standards",
+          "text": "At O’GEM Canada, quality is embedded into every stage of our operations — from sourcing and logistics to client support and post-delivery follow-up. Our comprehensive quality assurance systems ensure consistent product standards, traceability, and compliance with international regulations. We monitor delivery timelines closely and maintain proactive communication to guarantee reliable service and long-term client satisfaction."
+        },
+        "responsibility": {
+          "title": "Responsibility",
+          "text": "We are committed to operating with responsibility — both environmentally and ethically. As a company focused on agriculture and renewable energy, we prioritize sustainable practices that reduce environmental impact and support global efforts to build greener, more resilient industries. Transparency, accountability, and respect for people and the planet are at the core of how we do business."
+        },
+        "operation": {
+          "title": "How We Operate",
+          "text": "At the heart of O’GEM Canada are the values of excellence, integrity, and innovation. We believe that strong reputations are built through consistency, reliability, and forward-thinking. Our team continuously adapts to evolving global standards, setting new benchmarks in sustainable trade and clean technology. Every decision we make is driven by a desire to lead responsibly and create lasting value for our partners and communities."
+        }
+      }
+    }
+  },
+  "about": {
+    "page_header": {
+      "title": "About Us",
+      "breadcrumbs": {
+        "1": "Home",
+        "2": "About Us"
+      }
+    },
+    "hero": {
+      "text_1": "O’GEM Canada is a trading and logistics company specializing in the international supply of agricultural commodities and renewable energy solutions. Headquartered in Canada, we bring together expertise in agri-business, clean technologies, and cross-border commerce to support sustainable growth for our partners worldwide.",
+      "text_2": "Our mission is to build a more resilient and responsible future by delivering high-quality agricultural goods — such as grains, oilseeds, and legumes — alongside advanced energy solutions, including solar equipment, energy storage, and agro-energy infrastructure.",
+      "text_3": "Backed by a professional team and an international partner network, we combine strategic thinking with operational precision. We understand the importance of reliability, transparency, and long-term trust — values that shape everything we do.",
+      "text_4": "Whether you’re looking for efficient sourcing, supply chain support, or innovative energy tools for agricultural development, O’GEM Canada is your trusted partner in building a greener and more productive future."
+    },
+    "vision": {
+      "title": "Our vision",
+      "text": "Our main advantage lies in the dexterity and experience of our team, extensive geographical coverage and quality of services. Similarly, the conviction of some opponents determines the high demand for favorable prospects. As well as the actions of the opposition representatives, which are a vivid example of the continental European type of political culture, will be made public. Similarly, the innovative path we have chosen allows us to perform important tasks for the development of further directions of development. As part of the specification of modern standards, the shareholders of the largest companies will be made public. Suddenly, the shareholders of the largest companies are calling us for new achievements, which, in turn, must be verified in a timely manner."
+    },
+    "partners": {
+      "title": "Our Partners"
+    }
+  },
+  "contact": {
+    "page_header": {
+      "title": "Contact Us",
+      "breadcrumbs": {
+        "1": "Home",
+        "2": "Contact Us"
+      }
+    },
+    "form": {
+      "title": "Feedback form",
+      "subtitle": "Contact with us"
+    },
+    "info": {
+      "title": "Contact info",
+      "subtitle": "How to contact us",
+      "block_1": {
+        "text": "Our support specialists are always happy to help. Please email us at support@name.com Live chat is also available 7 days a week, 8:00 AM-Midnisht."
+      },
+      "block_2": {
+        "title": "work schedule",
+        "text": "Customer Service operates 7 days a week,<br/>8:00 AM-Midnight.<br/>Live Chat is also available 7 days a week,<br/>8:00 AM-Midnight."
+      }
+    }
+  },
+  "products": {
+    "page_header": {
+      "title": "Products",
+      "breadcrumbs": {
+        "1": "Home",
+        "2": "Products"
+      }
+    },
+    "cacao": {
+      "title": "Cacao Beans from São Tomé and Príncipe – A True Treasure of Nature",
+      "text": "São Tomé and Príncipe is a small archipelago in the Gulf of Guinea, known for its unique ecosystem and rich biodiversity. The cacao produced here is considered among the best in the world, thanks to the region's distinctive climatic and soil conditions."
+    },
+    "energy": {
+      "title": "Energy and Related Products",
+      "text": "Climate change demands cleaner and more sustainable energy solutions. At O’GEM Canada, we provide advanced technologies for renewable power generation, storage, and distribution. Our focus includes solar systems, wind generators, and waste-to-energy solutions designed to support agricultural and industrial energy needs. By helping our partners transition to greener infrastructure, we contribute to a more sustainable and resilient future. We believe that clean energy is not just an option — it's a responsibility and a strategic advantage for the years ahead."
+    },
+    "commodities": {
+      "title": "Commodities",
+      "text": "The global commodities market is complex and constantly evolving. At O’GEM Canada, we specialize in the international trade of agricultural goods and renewable energy technologies. Our expertise spans grains, oilseeds, legumes, and clean energy equipment — providing reliable sourcing, efficient logistics, and full transactional support.\u2028 We work closely with our clients at every stage of the process, ensuring transparency, timely delivery, and smart financial solutions tailored to their needs."
+    },
+    "food": {
+      "title": "Food and Agriculture",
+      "text": "At O’GEM Canada, we support global food supply through efficient sourcing and logistics of key agricultural products. We work with reliable producers of grains, legumes, livestock, and dairy, as well as manufacturers of canned and processed foods. Our goal is to connect quality suppliers with growing markets — quickly, sustainably, and cost-effectively."
+    },
+    "construction": {
+      "title": "Construction Equipment",
+      "text": "O’GEM Canada provides advanced solutions in sustainable agriculture and renewable energy.\u2028 We supply high-quality grains, legumes, and processed food products from trusted global producers, ensuring safety, freshness, and efficiency. In the energy sector, we deliver modern solar and wind systems, along with storage technologies, to support green infrastructure development. Our mission is to empower clients with dependable and eco-conscious solutions for a better future."
+    },
+    "production": {
+      "title": "Production Equipment",
+      "text": "O’GEM Canada delivers advanced production solutions for the construction industry, with a focus on innovative composite materials. We specialize in turnkey manufacturing lines for fiberglass and basalt rebar, mesh, and bent elements — developed in collaboration with global universities and regulators. Our technology improves durability, reduces costs, and offers faster installation and logistics benefits. With a proven track record and fast return on investment, our equipment sets a new standard in modern construction."
+    }
+  },
+  "cacao": {
+    "page_header": {
+      "title": "Cacao Beans from São Tomé and Príncipe – A True Treasure of Nature ",
+      "breadcrumbs": {
+        "1": "Home",
+        "2": "Products",
+        "3": "Cacao Beans..."
+      }
+    },
+    "blocks": {
+      "1": {
+        "title": "1. Introduction",
+        "text": "São Tomé and Príncipe is a small archipelago in the Gulf of Guinea, known for its unique ecosystem and rich biodiversity. The cacao produced here is considered among the best in the world, thanks to the region's distinctive climatic and soil conditions."
+      },
+      "2": {
+        "title": "2. Positive Aspects of Cacao from São Tomé and Príncipe",
+        "item_1": {
+          "title": "Unique Climatic Conditions",
+          "text_1": "Equatorial climate with high humidity and stable temperatures provides ideal conditions for cacao growth.",
+          "text_2": "Volcanic soils rich in minerals enhance the flavor profile of the cacao."
+        },
+        "item_2": {
+          "title": "Environmental Purity",
+          "text_1": "Use of natural farming methods.",
+          "text_2": "A naturally pure product, cultivated without GMOs, chemicals, or pesticides!"
+        },
+        "item_3": {
+          "title": "High Product Quality",
+          "text_1": "Rich aromatic profile with notes of fruits, flowers, and spices.",
+          "text_2": "High levels of theobromine and antioxidants."
+        },
+        "item_4": {
+          "title": "Traditional Production Methods",
+          "text_1": "Hand-harvested to ensure only ripe pods are selected.",
+          "text_2": "Careful fermentation and sun-drying to preserve flavor and aroma."
+        }
+      },
+      "3": {
+        "title": "3. Advantages Compared to Other Regions",
+        "item_1": {
+          "title": "Compared to West Africa",
+          "text_1": "Unlike mass production in Ghana or Côte d'Ivoire, cacao from São Tomé stands out for its higher quality and organic standards."
+        },
+        "item_2": {
+          "title": "Compared to South America",
+          "text_1": "São Tomé cacao offers a more pronounced chocolate flavor with lower acidity."
+        },
+        "item_3": {
+          "title": "Compared to Asia",
+          "text_1": "São Tomé cacao has a more natural profile and ecological certification."
+        }
+      },
+      "4": {
+        "title": "4. Ecosystem and Biosphere of São Tomé and Príncipe",
+        "item_1": {
+          "title": "Biodiversity Richness",
+          "text_1": "The region is a UNESCO Biosphere Reserve.",
+          "text_2": "Lush tropical forests act as a natural barrier to pollution."
+        },
+        "item_2": {
+          "title": "Sustainable Production",
+          "text_1": "Practices that protect the environment.",
+          "text_2": "Programs supporting local farmers."
+        }
+      },
+      "5": {
+        "title": "5. Market and Product Value",
+        "item_1": {
+          "title": "Products from Cacao Beans",
+          "text_1": "High-quality premium chocolate.",
+          "text_2": "Cacao powder for confectionery products.",
+          "text_3": "Cacao butter for the cosmetics industry."
+        },
+        "item_2": {
+          "title": "Market Value",
+          "text_1": "Cacao from São Tomé commands higher prices due to its unique flavor and organic standards.",
+          "text_2": "Growing demand for eco-friendly products in Europe and North America."
+        },
+        "item_3": {
+          "title": "Market Positioning",
+          "text_1": "A product for connoisseurs and niche brands.",
+          "text_2": "Popular in the premium chocolate and specialized cosmetics industries."
+        }
+      },
+      "6": {
+        "title": "6. Market Analysis",
+        "item_1": {
+          "title": "Major Importers",
+          "text_1": "Europe (Switzerland, France, Belgium).",
+          "text_2": "USA (organic chocolate brands)."
+        },
+        "item_2": {
+          "title": "Trends",
+          "text_1": "Growing demand for organic and sustainable cacao (5–7% annually).",
+          "text_2": "Products with geographical identification are highly sought after."
+        },
+        "item_3": {
+          "title": "Competitors",
+          "text_1": "Key regions: Latin America and Africa.",
+          "text_2": "São Tomé stands out for its ecological purity and premium quality."
+        }
+      },
+      "7": {
+        "title": "7. Conclusion",
+        "text": "Cacao from São Tomé and Príncipe is not only a product of the highest quality but also a contribution to nature conservation and support for local communities. The unique combination of climatic and environmental factors makes this region a leader in organic cacao production. It is the perfect choice for brands that value quality, authenticity, and sustainability."
+      }
+    }
+  },
+  "energy": {
+    "page_header": {
+      "title": "Energy and Related Products",
+      "breadcrumbs": {
+        "1": "Home",
+        "2": "Products",
+        "3": "Energy and Related Products"
+      }
+    },
+    "blocks": {
+      "1": {
+        "title": "Clean energy solutions",
+        "text": {
+          "1": "With the rapid development of green technologies and the growing impact of climate change, renewable energy has become an essential solution for sustainable progress. Solar and wind energy now offer accessible, efficient, and eco-friendly alternatives to traditional power sources.",
+          "2": "We provide a full range of solutions — from compact systems for private households to large-scale solar and wind power installations for agricultural and industrial use. Our focus is on energy independence, affordability, and environmental responsibility."
+        }
+      },
+      "2": {
+        "title": "Wind and solar power generation",
+        "text": {
+          "1": "Harnessing natural elements, we deliver modern energy solutions using wind turbines and photovoltaic solar panels of various capacities. Our services include equipment supply and complete turnkey systems tailored to the needs of farms, enterprises, and rural infrastructure."
+        }
+      },
+      "3": {
+        "title": "Energy storage systems",
+        "text": {
+          "1": "To ensure reliable and uninterrupted power, we offer advanced lithium-ion energy storage solutions. These systems allow excess energy generated during the day to be stored and used at night or during low-wind conditions, maximizing energy efficiency and independence."
+        }
+      }
+    }
+  },
+  "commodities": {
+    "page_header": {
+      "title": "Commodities",
+      "breadcrumbs": {
+        "1": "Home",
+        "2": "Products",
+        "3": "Commodities"
+      }
+    },
+    "blocks": {
+      "1": {
+        "title": "Navigating the world’s commodity markets requires expertise and precision",
+        "text": "We provide reliable contracts for the supply of oil, gas, fuel derivatives, industrial equipment, spare parts, metals, metal structures, agricultural commodities, and food products. Our clients benefit from comprehensive support at every stage of the transaction, including logistics management and financing solutions."
+      }
+    }
+  },
+  "food": {
+    "page_header": {
+      "title": "Food And Agriculture",
+      "breadcrumbs": {
+        "1": "Home",
+        "2": "Products",
+        "3": "Food And Agriculture"
+      }
+    },
+    "introduction": {
+      "title": "Introduction",
+      "text_1": "São Tomé and Príncipe is a small archipelago in the Gulf of Guinea, known for its unique ecosystem and rich biodiversity. The cacao produced here is considered among the best in the world, thanks to the region's distinctive climatic and soil conditions.",
+      "subtitle_1": "Positive Aspects of Cacao from São Tomé and Príncipe",
+      "list_1": {
+        "title": "Unique Climatic Conditions:",
+        "text_1": "Equatorial climate with high humidity and stable temperatures provides ideal conditions for cacao growth.",
+        "text_2": "Volcanic soils rich in minerals enhance the flavor profile of the cacao."
+      },
+      "list_2": {
+        "title": "Environmental Purity:",
+        "text_1": "Use of natural farming methods.",
+        "text_2": "A naturally pure product, cultivated without GMOs, chemicals, or pesticides!"
+      },
+      "list_3": {
+        "title": "High Product Quality:",
+        "text_1": "Use of natural farming methods.",
+        "text_2": "A naturally pure product, cultivated without GMOs, chemicals, or pesticides!"
+      },
+      "list_4": {
+        "title": "Traditional Production Methods:",
+        "text_1": "Hand-harvested to ensure only ripe pods are selected.",
+        "text_2": "Careful fermentation and sun-drying to preserve flavor and aroma."
+      }
+    },
+    "advantages": {
+      "title": "Advantages Compared to Other Regions",
+      "list_1": {
+        "title": "Compared to West Africa:",
+        "text": "Unlike mass production in Ghana or Côte d'Ivoire, cacao from São Tomé stands out for its higher quality and organic standards."
+      },
+      "list_2": {
+        "title": "Compared to South America:",
+        "text": "São Tomé cacao offers a more pronounced chocolate flavor with lower acidity."
+      },
+      "list_3": {
+        "title": "Compared to Asia:",
+        "text": "São Tomé cacao has a more natural profile and ecological certification."
+      },
+      "list_4": {
+        "title": "Traditional Production Methods:",
+        "text_1": "Hand-harvested to ensure only ripe pods are selected.",
+        "text_2": "Careful fermentation and sun-drying to preserve flavor and aroma."
+      },
+      "ecosystem": {
+        "title": "Ecosystem and Biosphere of São Tomé and Príncipe",
+        "list_1": {
+          "title": "Biodiversity Richness:",
+          "text_1": "The region is a UNESCO Biosphere Reserve.",
+          "text_2": "Lush tropical forests act as a natural barrier to pollution."
+        },
+        "list_2": {
+          "title": "Sustainable Production:",
+          "text_1": "Practices that protect the environment.",
+          "text_2": "Programs supporting local farmers."
+        }
+      }
+    },
+    "market": {
+      "title": "Market and Product Value",
+      "list_1": {
+        "title": "Products from Cacao Beans:",
+        "text_1": "High-quality premium chocolate.",
+        "text_2": "Cacao powder for confectionery products.",
+        "text_3": "Cacao butter for the cosmetics industry."
+      },
+      "list_2": {
+        "title": "Market Value:",
+        "text_1": "Cacao from São Tomé commands higher prices due to its unique flavor and organic standards.",
+        "text_2": "Growing demand for eco-friendly products in Europe and North America."
+      },
+      "list_3": {
+        "title": "Market Positioning:",
+        "text_1": "A product for connoisseurs and niche brands.",
+        "text_2": "Popular in the premium chocolate and specialized cosmetics industries."
+      },
+      "analysis": {
+        "title": "Market Analysis",
+        "list_1": {
+          "title": "Major Importers:",
+          "text_1": "Europe (Switzerland, France, Belgium).",
+          "text_2": "USA (organic chocolate brands)."
+        },
+        "list_2": {
+          "title": "Competitors:",
+          "text_1": "Key regions: Latin America and Africa.",
+          "text_2": "São Tomé stands out for its ecological purity and premium quality."
+        }
+      }
+    },
+    "conclusion": {
+      "title": "Conclusion",
+      "text": "Cacao from São Tomé and Príncipe is not only a product of the highest quality but also a contribution to nature conservation and support for local communities. The unique combination of climatic and environmental factors makes this region a leader in organic cacao production. It is the perfect choice for brands that value quality, authenticity, and sustainability.",
+      "subtitle_1": {
+        "title": "Recommendations",
+        "text_1": "Invest in marketing that highlights the product's ecological and unique origin.",
+        "text_2": "Develop partnerships with premium chocolate and cosmetics producers.",
+        "text_3": "Organize tasting events to showcase the product's exceptional flavor."
+      }
+    }
+  },
+  "construction": {
+    "page_header": {
+      "title": "Construction Equipment",
+      "breadcrumbs": {
+        "1": "Home",
+        "2": "Products",
+        "3": "Construction Equipment"
+      }
+    },
+    "text": "At O’GEM Canada, we support sustainable development with modern, efficient construction equipment designed for infrastructure in agriculture, energy, and rural development. We offer select machinery that supports eco-friendly building practices — from compact excavators and graders to utility equipment tailored for solar installations and agro-industrial sites. Our focus is on durable, safe, and cost-effective solutions that meet modern environmental and technical standards."
+  },
+  "production": {
+    "page_header": {
+      "title": "Production Equipment",
+      "breadcrumbs": {
+        "1": "Home",
+        "2": "Products",
+        "3": "Production Equipment"
+      }
+    },
+    "items": {
+      "1": {
+        "title": "The production line for fiberglass or basalt fiber rebar.",
+        "text_1": "Our fiberglass reinforcement production equipment is state-of-the-art, offering unmatched reliability and productivity. It sets you apart from competitors, providing undeniable advantages.",
+        "text_2": "All technologies are patented, ensuring not only the highest efficiency for your investment but also a guarantee of a stable future.",
+        "text_3": "Additionally, our equipment is reliable because we use components from globally renowned manufacturers in its production."
+      },
+      "2": {
+        "title": "Professional production line for manufacturing fiberglass reinforcing mesh",
+        "text_1": "We offer to purchase equipment for a high-yield business in the production of fiberglass or basalt fiber reinforcing mesh.",
+        "text_2": "Our equipment for manufacturing fiberglass reinforcing mesh is next-generation equipment. It is the most reliable, highly productive, and has no analogs, giving you undeniable advantages over your competitors.",
+        "text_3": "All technologies are patented, guaranteeing not only the highest efficiency of your investment but also ensuring a stable future.",
+        "text_4": "Furthermore, our equipment is reliable because we use components from globally renowned manufacturers in its production."
+      },
+      "3": {
+        "title": "The production line for curved frame elements made of fiberglass or basalt fiber.",
+        "text_1": "To complement your composite materials manufacturing plant, we have also developed equipment for producing curved frame elements made of fiberglass. Curved elements are always used in construction projects, and no construction site can do without them.",
+        "text_2": "If you want your composite materials manufacturing plant to offer your customers a full range of materials and compete with other manufacturers, then a line for producing curved elements is simply essential."
+      }
+    },
+    "products": {
+      "1": {
+        "info": {
+          "block_1": {
+            "title": "Production line for fiberglass or basalt fiber rebar.",
+            "text_1": "Our fiberglass rebar production equipment is state-of-the-art, providing our clients with unparalleled advantages over competitors. It's reliable, highly productive, and unmatched, offering indisputable benefits.",
+            "text_2": "All technologies are patented, ensuring not only the highest return on investment but also a guarantee of a stable future.",
+            "text_3": "We utilize components from leading global manufacturers in our production, ensuring the reliability of the equipment we produce"
+          },
+          "block_2": {
+            "title": "When purchasing equipment for fiberglass rebar production, our company provides:",
+            "text_1": "Assistance in developing a comprehensive technological process (technical regulations, formulations).",
+            "text_2": "Consultation on selecting production facilities, considering the organization of ventilation systems.",
+            "text_3": "Installation of equipment and carrying out commissioning works.",
+            "text_4": "Training of the client's staff.",
+            "text_5": "Technical support through continuous consultations by our company's specialists."
+          }
+        },
+        "title_1": "Technical specifications",
+        "subtitle_1": "Technical specifications of the composite rebar production line:",
+        "table_1": {
+          "row_1": {
+            "cell_1": "Purpose:",
+            "cell_2": "Production of rebar from fiberglass or basalt fiber"
+          },
+          "row_2": {
+            "cell_1": "Diameter of the produced products:",
+            "cell_2": "from 2 mm to 30 mm"
+          },
+          "row_3": {
+            "cell_1": "Voltage:",
+            "cell_2": "380 V / 50 Hz"
+          },
+          "row_4": {
+            "cell_1": "Power:",
+            "cell_2": "26 kW"
+          },
+          "row_5": {
+            "cell_1": "Line productivity:",
+            "cell_2": "3-18 linear meters per minute"
+          },
+          "row_6": {
+            "cell_1": "Length:",
+            "cell_2": "45 m"
+          },
+          "row_7": {
+            "cell_1": "Width:",
+            "cell_2": "1.2 m"
+          },
+          "row_8": {
+            "cell_1": "Height:",
+            "cell_2": "1.6 m"
+          }
+        },
+        "title_2": "Our equipment is highly productive!",
+        "subtitle_2": "Depending on the type of equipment chosen, it can produce 2 or 4 rods simultaneously.",
+        "text_1": "The composite rebar produced on the offered equipment possesses enhanced strength qualities (in terms of tensile, flexural, and rupture strength), highly valued by professional builders. We have achieved these parameters through extensive collaboration with numerous universities and research centers specializing in composite materials and advanced technologies."
+      },
+      "2": {
+        "info": {
+          "block_1": {
+            "title": "Professional production line for manufacturing fiberglass reinforcing mesh",
+            "text_1": "We offer equipment for a high-yielding business in the production of fiberglass or basalt fiber reinforcing mesh.",
+            "text_2": "Our equipment for the production of fiberglass reinforcing mesh is state-of-the-art, reliable, highly productive, and unparalleled, giving you undeniable advantages over your competitors.",
+            "text_3": "All technologies are patented, guaranteeing not only the highest efficiency of your investment but also ensuring a stable future."
+          },
+          "block_2": {
+            "title": "When purchasing equipment for reinforcing mesh production, our company provides:",
+            "text_1": "Assistance in developing a comprehensive technological process (technical regulations, formulations).",
+            "text_2": "Consultation on selecting production facilities, considering the organization of ventilation systems.",
+            "text_3": "Installation of equipment and carrying out commissioning works.",
+            "text_4": "Training of the client's staff.",
+            "text_5": "Technical support through continuous consultations by our company's specialists."
+          }
+        },
+        "title_1": "Technical specifications",
+        "subtitle_1": "Technical specifications of the composite rebar production line:",
+        "table_1": {
+          "row_1": {
+            "cell_1": "Purpose:",
+            "cell_2": "Production of composite mesh from fiberglass or basalt fiber"
+          },
+          "row_2": {
+            "cell_1": "Diameter of the produced products:",
+            "cell_2": "from 2 mm to 10 mm"
+          },
+          "row_3": {
+            "cell_1": "Voltage:",
+            "cell_2": "380 V / 50 Hz"
+          },
+          "row_4": {
+            "cell_1": "Mesh cell:",
+            "cell_2": "50х50, 100х100, 150х150, 200х200, 300х300"
+          }
+        },
+        "title_2": "We produce two types of equipment for manufacturing composite mesh:",
+        "subtitle_2": "Production of composite mesh from fiberglass or basalt fiber",
+        "table_2": {
+          "row_1": {
+            "cell_1": "Purpose:",
+            "cell_2": "Equipment for the production of composite mesh with a width of 1 meter."
+          },
+          "row_2": {
+            "cell_1": "Mesh cell size:",
+            "cell_2": "50х50, 100х100, 150х150, 200х200"
+          },
+          "row_3": {
+            "cell_1": "Available diameters:",
+            "cell_2": "2-8"
+          },
+          "row_4": {
+            "cell_1": "Length of the machine:",
+            "cell_2": "18"
+          },
+          "row_5": {
+            "cell_1": "Height:",
+            "cell_2": "1.8 m"
+          },
+          "row_6": {
+            "cell_1": "Width:",
+            "cell_2": "1.2 m"
+          },
+          "row_7": {
+            "cell_1": "Power:",
+            "cell_2": "35 кВт"
+          },
+          "row_8": {
+            "cell_1": "Line productivity:",
+            "cell_2": "3-8 linear meters per minute"
+          }
+        },
+        "subtitle_3": "Line for the production of fiberglass reinforcing mesh, width 2 meters.",
+        "table_3": {
+          "row_1": {
+            "cell_1": "Purpose:",
+            "cell_2": "Equipment for manufacturing composite mesh with a width of 2 meter."
+          },
+          "row_2": {
+            "cell_1": "Mesh cell size:",
+            "cell_2": "50х50 , 100х100, 150х150, 200х200, 300х300"
+          },
+          "row_3": {
+            "cell_1": "Available diameters:",
+            "cell_2": "2-12"
+          },
+          "row_4": {
+            "cell_1": "Length of the machine:",
+            "cell_2": "28 m"
+          },
+          "row_5": {
+            "cell_1": "Height:",
+            "cell_2": "1.8 m"
+          },
+          "row_6": {
+            "cell_1": "Width:",
+            "cell_2": "2.4 m"
+          },
+          "row_7": {
+            "cell_1": "Power:",
+            "cell_2": "45 kW"
+          },
+          "row_8": {
+            "cell_1": "Line productivity:",
+            "cell_2": "3-8 linear meters per minute"
+          }
+        },
+        "text_1": "Our equipment is highly productive! The composite mesh produced on the provided equipment possesses enhanced strength qualities (in terms of tensile, flexural, and rupture strength), which is highly valued by professional builders. We have achieved these parameters through extensive collaboration with universities and research centers specializing in composite materials and modern technologies."
+      },
+      "3": {
+        "info": {
+          "block_1": {
+            "title": "The production line for curved frame elements made of fiberglass or basalt fiber.",
+            "text_1": "To establish a complete plant for the production of composite materials, we have also developed equipment for manufacturing curved elements of the frame from fiberglass. Curved elements are essential in construction projects, as they are indispensable in every construction site.",
+            "text_2": "If you want your composite material plant to offer a complete range of materials to your customers and compete with other manufacturers effectively, then a production line for curved elements is essential."
+          }
+        },
+        "title_1": "Technical specifications",
+        "subtitle_1": "Technical specifications of the production line for curved elements:",
+        "table_1": {
+          "row_1": {
+            "cell_1": "Purpose:",
+            "cell_2": "Production of reinforcement from fiberglass or basalt fiber"
+          },
+          "row_2": {
+            "cell_1": "Length: ",
+            "cell_2": "16 m"
+          },
+          "row_3": {
+            "cell_1": "Width:",
+            "cell_2": "1.4 m"
+          },
+          "row_4": {
+            "cell_1": "Height:",
+            "cell_2": "2 m"
+          },
+          "row_5": {
+            "cell_1": "Voltage:",
+            "cell_2": "380 V"
+          },
+          "row_6": {
+            "cell_1": "Power:",
+            "cell_2": "12 kW"
+          }
+        },
+        "text_1": "The composite curved elements produced on the provided equipment possess enhanced strength qualities (in terms of tensile, flexural, and rupture strength), which are highly valued by professional builders. We have achieved these parameters through extensive collaboration with universities and research centers specializing in composite materials and modern technologies."
+      }
+    }
+  },
+  "services": {
+    "page_header": {
+      "title": "Services",
+      "breadcrumbs": {
+        "1": "Home",
+        "2": "Services"
+      }
+    },
+    "items": {
+      "1": {
+        "title": "SERVICE DELIVERY AND QUALITY STANDARDS",
+        "text": "Our quality assurance is comprehensive and enforced across all our operations, encompassing the entire value stream. Furthermore, we track and monitor adherence to delivery schedules, ensuring a high level of customer service with proactive communication."
+      },
+      "2": {
+        "title": "RESPONSIBILITY",
+        "text": "As a global energy trading and distribution concern, we hold ourselves accountable to the highest standards of environmental and corporate responsibility. Our operations are conducted to unwavering ethical standards and have earned us a reputation that continues to propel our growth and strengthen our relationships with partners and clients alike."
+      },
+      "3": {
+        "title": "HOW WE OPERATE",
+        "text": "O’Gem Trading LP core values are excellence, integrity and innovation. We recognize that reputations are built over many years and can be destroyed in a moment. Everything that we do is centered around continuing to preserve our name in the market, following current best practice and defining future best practice."
+      }
+    }
+  },
+  "policy": {
+    "page_header": {
+      "title": "Privacy & Cookie Policy",
+      "breadcrumbs": {
+        "1": "Home",
+        "2": "Privacy & Cookie Policy"
+      }
+    },
+    "title": "Privacy Policy",
+    "date_1": "Effective Date: {{date}}",
+    "date_2": "Last Updated: {{date}}",
+    "text_1": "O’GEM Trading CA LP (“we”, “our”, “us”) is committed to protecting the privacy and personal data of individuals who visit our website at www.ogem.ca, in compliance with the General Data Protection Regulation (GDPR) (EU) 2016/679 and other applicable data protection laws.",
+    "block_1": {
+      "title": "1. Data Controller",
+      "text_1": "O’GEM Trading CA LP",
+      "text_2": "Registered in Ontario, Canada",
+      "text_3": "Email: info@ogem.ca"
+    },
+    "block_2": {
+      "title": "2. What Personal Data We Collect",
+      "text_1": "a) Provided via Forms or Contact Requests:",
+      "list_1": {
+        "item_1": "Full name",
+        "item_2": "Email address",
+        "item_3": "Phone number",
+        "item_4": "Company name",
+        "item_5": "Any message content you submit"
+      },
+      "text_2": "b) Automatically Collected Data (via cookies and analytics):",
+      "list_2": {
+        "item_1": "IP address",
+        "item_2": "Browser type and version",
+        "item_3": "Device information",
+        "item_4": "Pages visited and session duration",
+        "item_5": "Referrer URL"
+      }
+    },
+    "block_3": {
+      "title": "3. Purpose and Legal Basis for Processing",
+      "text_1": "We process your personal data for the following purposes, based on these legal grounds:",
+      "list": {
+        "item_1": "Responding to contact forms – Consent (Art. 6(1)(a) GDPR)",
+        "item_2": "Providing services or offers – Contractual necessity (Art. 6(1)(b) GDPR)",
+        "item_3": "Marketing and newsletters (optional) – Consent (Art. 6(1)(a) GDPR)",
+        "item_4": "Website security and analytics – Legitimate interest (Art. 6(1)(f) GDPR)",
+        "item_5": "Compliance with legal obligations – Legal obligation (Art. 6(1)(c) GDPR)"
+      }
+    },
+    "block_4": {
+      "title": "4. Use of Cookies",
+      "text_1": "We use cookies to improve website functionality, analyze traffic, and personalize user experience. You will be asked to provide consent via a Cookie Banner upon first visit. You can adjust or withdraw your consent at any time via your browser settings."
+    },
+    "block_5": {
+      "title": "5. Data Sharing and Transfers",
+      "text_1": "We do not sell or rent personal data. We may share it with:",
+      "list_1": {
+        "item_1": "IT and hosting service providers (under data processing agreements)",
+        "item_2": "Legal or regulatory bodies when required",
+        "item_3": "Email/CRM platforms (e.g., for contact form handling or communication)"
+      },
+      "text_2": "International Transfers:\nIf data is transferred outside the EU, we ensure appropriate safeguards (e.g., Standard Contractual Clauses)."
+    },
+    "block_6": {
+      "title": "6. Data Retention",
+      "text_1": "We retain your data only as long as necessary to fulfill the purposes it was collected for, or as required by law. Contact form data is typically retained for 12 months, unless further communication occurs."
+    },
+    "block_7": {
+      "title": "7. Your Rights under GDPR",
+      "list": {
+        "item_1": "Access your personal data",
+        "item_2": "Rectify inaccurate or incomplete data",
+        "item_3": "Request erasure (“right to be forgotten”)",
+        "item_4": "Restrict or object to processing",
+        "item_5": "Data portability",
+        "item_6": "Withdraw consent at any time",
+        "item_7": "Lodge a complaint with a supervisory authority"
+      },
+      "text_1": "To exercise your rights, contact us at info@ogem.ca."
+    },
+    "block_8": {
+      "title": "8. Data Security",
+      "text_1": "We implement appropriate technical and organizational measures to protect personal data against unauthorized access, alteration, disclosure, or destruction."
+    },
+    "block_9": {
+      "title": "9. Contact Forms and Email Communication",
+      "text_1": "If you submit a form on our website, your data will only be used for the stated purpose. Your data will not be used for marketing unless explicit consent is provided."
+    },
+    "block_10": {
+      "title": "10. Changes to This Privacy Policy",
+      "text_1": "We reserve the right to update this policy. Any changes will be posted on this page with a new effective date.",
+      "text_2": "Need help or want to opt out? Write to us at: info@ogem.ca"
+    },
+    "cookie_policy": {
+      "title": "Cookie Policy",
+      "text_1": "This Cookie Policy explains how O’GEM Trading CA LP (\"we\", \"our\", or \"us\") uses cookies and similar technologies when you visit our website at www.ogem.ca.",
+      "block_1": {
+        "title": "1. What Are Cookies?",
+        "text_1": "Cookies are small text files stored on your device when you visit a website. They allow the site to recognize your device and remember your actions and preferences over time."
+      },
+      "block_2": {
+        "title": "2. Types of Cookies We Use",
+        "list": {
+          "item_1": "Strictly Necessary: Required for website functionality and cannot be disabled.",
+          "item_2": "Analytics/Performance: Help us understand how visitors use our site (e.g., Google Analytics).",
+          "item_3": "Preference: Remember your settings and choices.",
+          "item_4": "Marketing: Track visitor behavior to show relevant ads (only with consent)."
+        }
+      },
+      "block_3": {
+        "title": "3. Cookie Consent and Control",
+        "text_1": "Upon your first visit, we display a Cookie Banner requesting your consent to use non-essential cookies. You can:",
+        "list": {
+          "item_1": "Accept all cookies",
+          "item_2": "Reject non-essential cookies",
+          "item_3": "Customize your preferences"
+        },
+        "text_2": "You can also change or withdraw your consent at any time by adjusting your browser settings or revisiting the banner."
+      },
+      "block_4": {
+        "title": "4. Managing Cookies",
+        "text_1": "Most web browsers allow control of cookies through browser settings. Blocking some types of cookies may impact your experience on the website.",
+        "text_2": "Learn more:",
+        "links": {
+          "Chrome": "https://support.google.com/chrome/answer/95647",
+          "Firefox": "https://support.mozilla.org/en-US/kb/cookies-information-websites-store-on-your-computer",
+          "Safari": "https://support.apple.com/en-us/HT201265"
+        }
+      },
+      "block_5": {
+        "title": "5. Changes to This Cookie Policy",
+        "text_1": "We may update this Cookie Policy periodically. Any changes will be posted on this page with the updated date.",
+        "text_2": "Last updated: {{date}}",
+        "text_3": "Contact: info@ogem.ca"
+      }
+    }
+  }
+}

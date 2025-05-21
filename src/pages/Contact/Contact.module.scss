@@ -1,0 +1,155 @@
+@use '@/styles/helpers' as *;
+
+.contact {
+
+  &Container {
+
+  }
+
+  &Inner {
+    display: flex;
+    gap: rem(20);
+    padding: rem(30) 0;
+
+    @include laptop {
+      flex-direction: column;
+    }
+  }
+
+  &Form {
+    &Wrapper {
+      flex-shrink: 0;
+      flex-basis: 60%;
+      padding: rem(48) rem(52);
+      background-color: var(--color-bg);
+      border-radius: rem(20);
+
+      @include laptop {
+        flex-basis: auto;
+      }
+      @include tablet {
+        padding: rem(36) rem(28);
+      }
+      @include mobile {
+        padding: rem(28) rem(26);
+      }
+    }
+
+    &Title {
+      font-size: rem(40);
+      font-weight: 600;
+      margin-bottom: rem(8);
+
+      @include tablet {
+        font-size: rem(32);
+        margin-bottom: rem(12);
+      }
+      @include mobile {
+        font-size: rem(20);
+        text-align: center;
+        margin-bottom: rem(8);
+
+      }
+    }
+
+    &Subtitle {
+      font-size: rem(20);
+      color: var(--color-red);
+      font-weight: 500;
+      margin-bottom: rem(22);
+
+      @include tablet {
+        font-size: rem(16);
+      }
+      @include mobile {
+        font-size: rem(14);
+        text-align: center;
+        margin-bottom: rem(16);
+      }
+    }
+  }
+
+  &Info {
+    flex-shrink: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--color-yellow-bg);
+    border-radius: rem(20);
+    padding: rem(68) rem(90) rem(110);
+    text-align: center;
+
+    @include tablet {
+      padding: rem(40) rem(50);
+    }
+
+    @include mobile {
+      padding: rem(26) rem(36);
+    }
+
+    &Title {
+      font-size: rem(20);
+      font-weight: 600;
+      margin-bottom: rem(8);
+    }
+
+    &SubTitle {
+      font-size: rem(20);
+      font-weight: 500;
+      color: var(--color-orange);
+      margin-bottom: rem(68);
+
+      @include tablet {
+        margin-bottom: rem(32);
+      }
+
+      @include mobile {
+        font-size: rem(14);
+
+      }
+    }
+
+    &Block {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      &:not(:last-child) {
+        margin-bottom: rem(52);
+
+        @include tablet {
+          margin-bottom: rem(32);
+        }
+
+        @include mobile {
+          margin-bottom: rem(24);
+        }
+      }
+
+      &Icon {
+        margin-bottom: rem(14);
+      }
+
+      &Title {
+        font-size: rem(20);
+        font-weight: 500;
+        line-height: rem(28);
+        margin-bottom: rem(22);
+
+        @include mobile {
+          font-size: rem(18);
+          margin-bottom: rem(16);
+        }
+      }
+
+      &Text {
+        font-size: rem(14);
+        line-height: rem(28);
+        @include mobile {
+          font-size: rem(12);
+          line-height: rem(24);
+        }
+      }
+    }
+  }
+}

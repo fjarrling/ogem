@@ -1,0 +1,77 @@
+@use '@/styles/helpers' as *;
+
+.language {
+  &Button {
+    @include reset-button;
+    @include flex-center(true);
+    gap: rem(6);
+    width: rem(110);
+    padding: rem(11) 0;
+    border: rem(1) solid var(--color-black);
+    border-radius: rem(40);
+    transition-duration: var(--transition-duration);
+    text-transform: uppercase;
+
+    @include tablet {
+      padding: rem(9) 0;
+      font-size: rem(14);
+      width: rem(88);
+    }
+
+    &[data-state="open"] {
+      .languageButtonIndicator {
+        transform: rotate(-180deg);
+      }
+    }
+
+    &Indicator {
+      transition-duration: var(--transition-duration);
+    }
+  }
+
+  &Dropdown {
+    border: none;
+    box-shadow: none;
+    padding: 0;
+    z-index: 21;
+    background-color: transparent;
+
+    &List {
+      padding: 0;
+      margin-inline: auto;
+      align-items: center;
+      border-radius: rem(20);
+      border: rem(1) solid var(--color-gray-light);
+      overflow: hidden;
+      width: var(--radix-popper-anchor-width);
+    }
+
+
+    &Item {
+      width: 100%;
+      padding: 0;
+      border-radius: 0;
+
+      &:not(:last-child) {
+        border-bottom: rem(1) solid var(--color-gray-light);
+      }
+    }
+
+    &Button {
+      @include reset-button;
+      width: 100%;
+      padding-block: rem(12);
+      background-color: var(--color-white);
+      text-transform: uppercase;
+
+      @include hover {
+        background-color: #FFF7EA;
+      }
+    }
+
+    &Separator {
+      margin: 0;
+      background-color: var(--color-gray-light);
+    }
+  }
+}

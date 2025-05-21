@@ -1,0 +1,55 @@
+@use '@/styles/helpers' as *;
+
+.burger {
+  @include reset-button;
+  @include square(rem(28));
+  @include flex-center;
+  flex-direction: column;
+  padding: rem(4) rem(2);
+  gap: rem(4);
+  display: none;
+
+  @include hover {
+    .burgerLine {
+      background-color: var(--color-orange);
+    }
+  }
+
+  @include tablet {
+    display: flex;
+  }
+
+  &Line {
+    width: rem(23);
+    height: rem(2);
+    border-radius: rem(2);
+    background-color: var(--color-black);
+    transition-duration: var(--transition-duration);
+
+    &:nth-child(2) {
+      align-self: end;
+      width: rem(13);
+    }
+    &:nth-child(4) {
+      align-self: end;
+      width: rem(13);
+    }
+  }
+
+  &.active {
+    .burgerLine {
+      &:nth-child(1) {
+        transform: translateY(rem(9)) rotate(45deg);
+      }
+      &:nth-child(2) {
+        opacity: 0;
+      }
+      &:nth-child(3) {
+        transform: translateY(rem(-3)) rotate(-45deg);
+      }
+      &:nth-child(4) {
+        opacity: 0;
+      }
+    }
+  }
+}

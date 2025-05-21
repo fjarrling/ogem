@@ -1,0 +1,66 @@
+@use '@/styles/helpers' as *;
+
+
+.construction {
+  &Container {
+  }
+
+  &Inner {
+    display: flex;
+    flex-direction: column;
+    padding-block: rem(38);
+    gap: rem(38);
+    @include tablet {
+      padding-block: rem(26);
+      gap: rem(26);
+    }
+
+    @include mobile {
+      padding-block: rem(18);
+      gap: rem(18);
+
+    }
+  }
+
+  &Body {
+
+  }
+
+  &Block {
+
+    &Text {
+      font-size: rem(16);
+      font-weight: 500;
+    }
+
+
+    &Title {
+      font-size: rem(20);
+      font-weight: 600;
+      line-height: rem(24);
+      margin-bottom: rem(16);
+      color: var(--color-red);
+    }
+
+  }
+
+  &Image {
+    border-radius: rem(20);
+    overflow: hidden;
+
+    img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+    }
+
+    @include tablet {
+      height: rem(434);
+
+    }
+
+    @include mobile {
+      height: rem(248);
+    }
+  }
+}

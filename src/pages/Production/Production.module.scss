@@ -1,0 +1,111 @@
+@use '@/styles/helpers' as *;
+
+.production {
+
+  &Container {
+
+  }
+
+  &Inner {
+    display: flex;
+    flex-direction: column;
+    padding-block: rem(38);
+    gap: rem(38);
+
+    @include tablet {
+      padding-block: rem(26);
+      gap: rem(26);
+    }
+
+    @include mobile {
+      padding-block: rem(18);
+      gap: rem(18);
+
+    }
+  }
+
+  &List {
+    display: flex;
+    flex-direction: column;
+    gap: rem(60);
+
+    @include laptop {
+      gap: rem(32);
+    }
+
+  }
+
+  &Item {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    gap: rem(32);
+
+    @include laptop {
+      flex-direction: column;
+    }
+
+    @include mobile {
+      gap: rem(20);
+    }
+
+    &Title {
+      font-size: rem(20);
+      font-weight: 600;
+      margin-bottom: rem(22);
+      color: var(--color-red);
+
+      @include mobile {
+        margin-bottom: rem(16);
+      }
+    }
+
+    &Text {
+      font-weight: 500;
+      margin-bottom: rem(20);
+
+      @include mobile {
+        font-size: rem(14);
+        margin-bottom: rem(16);
+      }
+    }
+
+    &Button {
+      @include mobile-s {
+        width: 100%;
+      }
+    }
+
+    &Image {
+      flex: 1 0 rem(660);
+      max-width: rem(660);
+      border-radius: rem(20);
+      overflow: hidden;
+
+      @include laptop {
+        max-width: none;
+        width: 100%;
+        max-height: rem(410);
+      }
+
+      @include mobile {
+        max-height: rem(176);
+
+      }
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+
+    &Body {
+      max-width: rem(840);
+
+      @include laptop {
+        max-width: none;
+      }
+    }
+  }
+}

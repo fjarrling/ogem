@@ -1,0 +1,183 @@
+@use '@/styles/helpers' as *;
+
+.dialog {
+  padding: 20px;
+
+  &Content {
+    max-width: rem(1000);
+    max-height: calc(100vh - rem(32));
+    overflow: auto;
+    padding: rem(48) rem(52);
+    border-radius: rem(20);
+    border: none;
+    gap: 0;
+
+    @include tablet {
+      max-width: rem(680);
+      padding: rem(38) rem(28);
+    }
+
+    @include mobile {
+      max-width: calc(100% - rem(32));
+      padding: rem(26) rem(28);
+    }
+  }
+
+  &Header {
+    text-align: center;
+    margin-bottom: rem(40);
+    gap: 0;
+
+    @include tablet {
+      margin-bottom: rem(22);
+    }
+    @include mobile {
+      margin-bottom: rem(16);
+    }
+  }
+
+  &Title {
+    font-size: rem(40);
+    font-weight: 600;
+    margin-bottom: rem(20);
+
+    @include tablet {
+      font-size: rem(32);
+      margin-bottom: rem(12);
+    }
+    @include mobile {
+      margin-bottom: rem(8);
+      font-size: rem(20);
+    }
+  }
+
+  &Subtitle {
+    font-size: rem(20);
+    font-weight: 500;
+    color: var(--color-orange);
+    @include tablet {
+      font-size: rem(16);
+    }
+
+    @include mobile {
+      font-size: rem(14);
+    }
+  }
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: rem(22);
+
+  @include tablet {
+    margin-bottom: rem(16);
+  }
+
+  @include mobile {
+    margin-bottom: rem(12);
+  }
+
+  label {
+    font-size: rem(14);
+    font-weight: 500;
+    line-height: rem(28);
+    margin-bottom: rem(10);
+
+    @include tablet {
+      margin-bottom: rem(8);
+    }
+
+    @include mobile {
+      margin-bottom: rem(4);
+      font-size: rem(12);
+    }
+  }
+
+  input {
+    @include mobile {
+      padding: rem(11);
+    }
+  }
+
+  textarea {
+    min-height: rem(144);
+    resize: none;
+
+    @include tablet {
+      max-height: rem(112);
+    }
+
+    &:focus-visible {
+      outline: none;
+      box-shadow: none;
+    }
+  }
+}
+
+.double {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: rem(52);
+
+  @include tablet {
+    gap: rem(16);
+  }
+
+  @include mobile {
+    grid-template-columns: 1fr;
+    gap: rem(12);
+  }
+}
+
+.checkbox {
+  display: flex;
+  align-items: center;
+  gap: rem(12);
+  font-size: rem(14);
+  font-weight: 500;
+  line-height: rem(28);
+  color: var(--color-black);
+  margin-top: rem(8);
+  margin-bottom: rem(28);
+
+  @include mobile {
+    align-items: stretch;
+    font-size: rem(12);
+    button {
+      margin-top: rem(7);
+    }
+  }
+}
+
+.submit {
+  min-width: rem(170);
+  align-self: flex-start;
+
+  @include mobile {
+    align-self: center;
+    max-width: 100%;
+    width: 100%;
+  }
+}
+
+.error {
+  margin-top: rem(8);
+  font-size: 0.75rem;
+  color: red;
+
+  &Submit {
+    margin-bottom: rem(8);
+    font-size: 0.75rem;
+    color: red;
+  }
+}
+
+.inputError {
+  outline: rem(1) solid var(--color-red);
+}

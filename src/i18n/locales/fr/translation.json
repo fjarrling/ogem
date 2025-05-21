@@ -1,0 +1,900 @@
+{
+  "footer": {
+    "copyright": "Copyright © {{year}} OGEM. All rights reserved."
+  },
+  "navigation": {
+    "home": "Accueil",
+    "about": "À propos de nous",
+    "products_services": "Produits et services",
+    "policy": "Confidentialité et cookies",
+    "contact": "Contactez-nous",
+    "links": {
+      "cacao_beans": "Haricots cacao",
+      "energy_products": "Énergie et produits connexes",
+      "commodities": "Marchandises",
+      "food_agriculture": "Nourriture et agriculture",
+      "construction_equipment": "Équipement de construction",
+      "production_equipment": "Équipement de production",
+      "view_all_products": "Voir tous les produits",
+      "services": "Services"
+    }
+  },
+  "routes": {
+    "products": "Produits"
+  },
+  "buttons": {
+    "appeal": "Appel en ligne",
+    "cooperation": "Démarrer la coopération",
+    "read_more": "En savoir plus",
+    "view_more": "Voir plus",
+    "download_presentation": "Télécharger la présentation"
+  },
+  "forms": {
+    "online_appeal": {
+      "title": "Appel en ligne",
+      "subtitle": " Si vous avez toujours des questions, utilisez ce formulaire"
+    },
+    "name": {
+      "label": "Nom et prénom*",
+      "error": {
+        "min": "Le nom complet doit comporter au moins 2 caractères",
+        "max": "Le nom complet est trop long"
+      }
+    },
+    "organization_name": {
+      "label": "Nom de l'organisation",
+      "error": {
+        "min": "Le nom de l'organisation doit comporter au moins 2 caractères",
+        "max": "Le nom de l'organisation est trop long"
+      }
+    },
+    "email": {
+      "label": "Adresse email*",
+      "error": "Adresse e-mail non valide"
+    },
+    "phone_number": {
+      "label": "Numéro de téléphone*",
+      "error": "Numéro de téléphone non valide"
+    },
+    "message": {
+      "label": "Votre message",
+      "error": {
+        "min": "Le message doit comporter au moins 10 caractères",
+        "max": "Le message est trop long"
+      }
+    },
+    "consent": {
+      "label": "En soumettant une demande, vous consentez au traitement de vos données personnelles",
+      "error": "Vous devez consentir avant de soumettre"
+    },
+    "submit": "Envoyer"
+  },
+  "emails": {
+    "support": "support@ogem.uk"
+  },
+  "home": {
+    "hero": {
+      "subtitle": "Machines agricoles, services de transport, commerce des céréales",
+      "title": "Produits agricoles et technologies des énergies renouvelables",
+      "text": "Laissez une demande de coopération, et nous vous fournirons des solutions sur mesure en agriculture et en énergie renouvelable"
+    },
+    "info": {
+      "title": "La direction de l'activité de l'entreprise",
+      "text_1": "À Ogem Canada, nous nous spécialisons dans le commerce international des produits agricoles et des technologies des énergies renouvelables.",
+      "text_2": "Nos forces clés comprennent une équipe très expérimentée, un large réseau de partenaires fiables et un engagement envers la qualité et la durabilité."
+    },
+    "focus": {
+      "title": "Nous nous concentrons sur:",
+      "items": {
+        "1": "Exportation et gros des céréales, des graines oléagineuses, des légumineuses et des sous-produits agricoles",
+        "2": "Fourniture de machines agricoles et de logistique de transport",
+        "3": "Solutions en énergie renouvelable: panneaux solaires, systèmes de stockage d'énergie et infrastructure agroénergie"
+      },
+      "text": "Notre mission est de fournir des solutions durables, efficaces et prêtes pour les futurs qui répondent aux demandes évolutives de l'agriculture mondiale et des marchés de l'énergie verte."
+    },
+    "articles": {
+      "about": {
+        "title": "À propos de nous",
+        "text": [
+          "O’Gem Canada est une société de commerce et de logistique spécialisée dans l’offre internationale de produits agricoles et de solutions d’énergie renouvelable. ",
+          "Notre mission est de construire un avenir plus résilient et responsable en livrant des produits agricoles de haute qualité - tels que les céréales, les graines pétrolières et les légumineuses - aux côtés de solutions énergétiques avancées, y compris l'équipement solaire, le stockage d'énergie et l'infrastructure agroénergie.",
+          "Soutenu par une équipe professionnelle et un réseau de partenaires internationaux, nous combinons la pensée stratégique avec précision opérationnelle. ",
+          "Que vous recherchiez un approvisionnement efficace, un soutien à la chaîne d'approvisionnement ou des outils énergétiques innovants pour le développement agricole, O’Gem Canada est votre partenaire de confiance dans la construction d'un avenir plus vert et plus productif."
+        ]
+      },
+      "products": {
+        "title": "Produits",
+        "text": [
+          "Chez O’Gem Canada, nous nous spécialisons dans le commerce international des produits agricoles et des solutions d'énergie renouvelable. ",
+          "Conformément à notre engagement envers l'innovation et la responsabilité environnementale, nous développons et distribuez activement les technologies d'énergie renouvelable. ",
+          "En combinant des connaissances approfondies du marché, un solide réseau international et une approche prospective, O’Gem Canada soutient la transition vers des industries plus propres et plus durables. "
+        ]
+      },
+      "energy": {
+        "title": "Énergie et produits connexes",
+        "text": [
+          "Le changement mondial vers le développement durable nécessite des solutions d'énergie propre, efficaces et renouvelables. ",
+          "Notre gamme comprend des systèmes d'énergie solaire à usage résidentiel et industriel, des éoliennes de diverses capacités et des solutions de stockage d'énergie fiables. ",
+          "Nous travaillons en étroite collaboration avec nos clients pour développer des stratégies énergétiques sur mesure qui s'intègrent parfaitement aux opérations existantes, soutenant à la fois les objectifs environnementaux et la rentabilité à long terme."
+        ]
+      },
+      "commodities": {
+        "title": "Marchandises",
+        "text": [
+          "Chez O’Gem Canada, nous opérons sur le marché mondial des produits de base dynamique avec une approche ciblée des biens agricoles et des technologies des énergies renouvelables. ",
+          "Nous nous spécialisons dans la distribution d'exportation et de gros des céréales, des graines pétrolières, des légumineuses et des sous-produits agricoles. ",
+          "En plus du commerce agricole, nous proposons des équipements et des composants pour les projets d'énergie renouvelable - y compris les panneaux solaires, les éoliennes et les solutions de stockage d'énergie. "
+        ]
+      }
+    },
+    "service": {
+      "title": "Service",
+      "subtitle": "Nous fournissons les services suivants",
+      "items": {
+        "quality": {
+          "title": "Normes de prestation de services et de qualité",
+          "text": "Chez O’Gem Canada, la qualité est intégrée à chaque étape de nos opérations - de l'approvisionnement et de la logistique au support client et au suivi post-livraison. "
+        },
+        "responsibility": {
+          "title": "Responsabilité",
+          "text": "Nous nous engageons à opérer avec responsabilité - à la fois sur l'environnement et l'éthique. "
+        },
+        "operation": {
+          "title": "Comment nous opérons",
+          "text": "Au cœur d'O’Gem Canada se trouvent les valeurs de l'excellence, de l'intégrité et de l'innovation. "
+        }
+      }
+    }
+  },
+  "about": {
+    "page_header": {
+      "title": "À propos de nous",
+      "breadcrumbs": {
+        "1": "Accueil",
+        "2": "À propos de nous"
+      }
+    },
+    "hero": {
+      "text_1": "O’Gem Canada est une société de commerce et de logistique spécialisée dans l’offre internationale de produits agricoles et de solutions d’énergie renouvelable. ",
+      "text_2": "Notre mission est de construire un avenir plus résilient et responsable en livrant des produits agricoles de haute qualité - tels que les céréales, les graines pétrolières et les légumineuses - aux côtés de solutions énergétiques avancées, y compris l'équipement solaire, le stockage d'énergie et l'infrastructure agroénergie.",
+      "text_3": "Soutenu par une équipe professionnelle et un réseau de partenaires internationaux, nous combinons la pensée stratégique avec précision opérationnelle. ",
+      "text_4": "Que vous recherchiez un approvisionnement efficace, un soutien à la chaîne d'approvisionnement ou des outils énergétiques innovants pour le développement agricole, O’Gem Canada est votre partenaire de confiance dans la construction d'un avenir plus vert et plus productif."
+    },
+    "vision": {
+      "title": "Notre vision",
+      "text": "Notre principal avantage réside dans la dextérité et l'expérience de notre équipe, une couverture géographique approfondie et une qualité des services. "
+    },
+    "partners": {
+      "title": "Nos partenaires"
+    }
+  },
+  "contact": {
+    "page_header": {
+      "title": "Contactez-nous",
+      "breadcrumbs": {
+        "1": "Accueil",
+        "2": "Contactez-nous"
+      }
+    },
+    "form": {
+      "title": "Formulaire de rétroaction",
+      "subtitle": "Contact avec nous"
+    },
+    "info": {
+      "title": "Coordonnées",
+      "subtitle": "Comment nous contacter",
+      "block_1": {
+        "text": "Nos spécialistes du soutien sont toujours heureux d'aider. "
+      },
+      "block_2": {
+        "title": "calendrier de travail",
+        "text": "Le service client fonctionne 7 jours par semaine,<br/>8h00 à milieu de nuit.<br/>Le chat en direct est également disponible 7 jours par semaine,<br/>8h00 à milieu de nuit."
+      }
+    }
+  },
+  "products": {
+    "page_header": {
+      "title": "Produits",
+      "breadcrumbs": {
+        "1": "Accueil",
+        "2": "Produits"
+      }
+    },
+    "cacao": {
+      "title": "Cacao Beans de São Tomé et Príncipe - un vrai trésor de la nature",
+      "text": "São Tomé et Príncipe sont un petit archipel dans le golfe de Guinée, connu pour son écosystème unique et sa riche biodiversité. "
+    },
+    "energy": {
+      "title": "Énergie et produits connexes",
+      "text": "Le changement climatique exige des solutions d'énergie plus propres et plus durables. "
+    },
+    "commodities": {
+      "title": "Marchandises",
+      "text": "Le marché mondial des matières premières est complexe et évolue constamment. "
+    },
+    "food": {
+      "title": "Nourriture et agriculture",
+      "text": "Chez O’Gem Canada, nous soutenons l’approvisionnement alimentaire mondial grâce à un approvisionnement efficace et à la logistique des principaux produits agricoles. "
+    },
+    "construction": {
+      "title": "Équipement de construction",
+      "text": "O’Gem Canada fournit des solutions avancées en agriculture durable et en énergies renouvelables.  "
+    },
+    "production": {
+      "title": "Équipement de production",
+      "text": "O’Gem Canada fournit des solutions de production avancées pour l'industrie de la construction, en mettant l'accent sur les matériaux composites innovants. "
+    }
+  },
+  "cacao": {
+    "page_header": {
+      "title": "Cacao Beans de São Tomé et Príncipe - un vrai trésor de la nature ",
+      "breadcrumbs": {
+        "1": "Accueil",
+        "2": "Produits",
+        "3": "Haricots cacao ..."
+      }
+    },
+    "blocks": {
+      "1": {
+        "title": "1. Introduction",
+        "text": "São Tomé et Príncipe sont un petit archipel dans le golfe de Guinée, connu pour son écosystème unique et sa riche biodiversité. "
+      },
+      "2": {
+        "title": "2. Aspects positifs du cacao de São Tomé et Príncipe",
+        "item_1": {
+          "title": "Conditions climatiques uniques",
+          "text_1": "Le climat équatorial avec une humidité élevée et des températures stables fournit des conditions idéales pour la croissance du cacao.",
+          "text_2": "Les sols volcaniques riches en minéraux améliorent le profil de saveur du cacao."
+        },
+        "item_2": {
+          "title": "Pureté environnementale",
+          "text_1": "Utilisation de méthodes agricoles naturelles.",
+          "text_2": "Un produit naturellement pur, cultivé sans OGM, produits chimiques ou pesticides!"
+        },
+        "item_3": {
+          "title": "Qualité du produit élevé",
+          "text_1": "Riche profil aromatique avec des notes de fruits, de fleurs et d'épices.",
+          "text_2": "Niveaux élevés de théobromine et d'antioxydants."
+        },
+        "item_4": {
+          "title": "Méthodes de production traditionnelles",
+          "text_1": "L'encouragement à la main pour garantir que seules les gousses mûres sont sélectionnées.",
+          "text_2": "Fermentation soigneuse et séchage au soleil pour préserver la saveur et l'arôme."
+        }
+      },
+      "3": {
+        "title": "3. Avantages par rapport aux autres régions",
+        "item_1": {
+          "title": "Par rapport à l'Afrique de l'Ouest",
+          "text_1": "Contrairement à la production de masse au Ghana ou à la Côte d'Ivoire, Cacao de São Tomé se distingue par ses normes de meilleure qualité et organiques."
+        },
+        "item_2": {
+          "title": "Par rapport à l'Amérique du Sud",
+          "text_1": "São Tomé Cacao offre une saveur de chocolat plus prononcée avec une acidité plus faible."
+        },
+        "item_3": {
+          "title": "Par rapport à l'Asie",
+          "text_1": "São Tomé Cacao a un profil plus naturel et une certification écologique."
+        }
+      },
+      "4": {
+        "title": "4. Écosystème et biosphère de São Tomé et Príncipe",
+        "item_1": {
+          "title": "Richesse de biodiversité",
+          "text_1": "La région est une réserve de biosphère de l'UNESCO.",
+          "text_2": "Les forêts tropicales luxuriantes agissent comme une barrière naturelle à la pollution."
+        },
+        "item_2": {
+          "title": "Production durable",
+          "text_1": "Pratiques qui protègent l'environnement.",
+          "text_2": "Programmes soutenant les agriculteurs locaux."
+        }
+      },
+      "5": {
+        "title": "5. Valeur du marché et du produit",
+        "item_1": {
+          "title": "Produits des haricots cacao",
+          "text_1": "Chocolat de qualité supérieure de haute qualité.",
+          "text_2": "Poudre de cacao pour les produits de confiserie.",
+          "text_3": "Cacao Butter pour l'industrie des cosmétiques."
+        },
+        "item_2": {
+          "title": "Valeur marchande",
+          "text_1": "Cacao de São Tomé commande des prix plus élevés en raison de sa saveur unique et de ses normes biologiques.",
+          "text_2": "Demande croissante de produits écologiques en Europe et en Amérique du Nord."
+        },
+        "item_3": {
+          "title": "Positionnement du marché",
+          "text_1": "Un produit pour les connaisseurs et les marques de niche.",
+          "text_2": "Populaire dans le chocolat haut de gamme et les industries des cosmétiques spécialisées."
+        }
+      },
+      "6": {
+        "title": "6. Analyse du marché",
+        "item_1": {
+          "title": "Importants importants",
+          "text_1": "Europe (Suisse, France, Belgique).",
+          "text_2": "États-Unis (marques de chocolat biologique)."
+        },
+        "item_2": {
+          "title": "Tendances",
+          "text_1": "Demande croissante de cacao biologique et durable (5 à 7% par an).",
+          "text_2": "Les produits avec identification géographique sont très recherchés."
+        },
+        "item_3": {
+          "title": "Concurrents",
+          "text_1": "Régions clés: l'Amérique latine et l'Afrique.",
+          "text_2": "São Tomé se démarque de sa pureté écologique et de sa qualité supérieure."
+        }
+      },
+      "7": {
+        "title": "7. Conclusion",
+        "text": "Le cacao de São Tomé et Príncipe n'est pas seulement un produit de la plus haute qualité mais aussi une contribution à la conservation de la nature et au soutien aux communautés locales. "
+      }
+    }
+  },
+  "energy": {
+    "page_header": {
+      "title": "Énergie et produits connexes",
+      "breadcrumbs": {
+        "1": "Accueil",
+        "2": "Produits",
+        "3": "Énergie et produits connexes"
+      }
+    },
+    "blocks": {
+      "1": {
+        "title": "Solutions d'énergie propre",
+        "text": {
+          "1": "Avec le développement rapide des technologies vertes et l'impact croissant du changement climatique, les énergies renouvelables sont devenues une solution essentielle pour les progrès durables. ",
+          "2": "Nous fournissons une gamme complète de solutions - des systèmes compacts pour les ménages privés aux installations solaires et éoliennes à grande échelle à usage agricole et industriel. "
+        }
+      },
+      "2": {
+        "title": "Génération d'énergie éolienne et solaire",
+        "text": {
+          "1": "Exploitant des éléments naturels, nous fournissons des solutions énergétiques modernes utilisant des éoliennes et des panneaux solaires photovoltaïques de diverses capacités. "
+        }
+      },
+      "3": {
+        "title": "Systèmes de stockage d'énergie",
+        "text": {
+          "1": "Pour assurer une puissance fiable et ininterrompue, nous proposons des solutions de stockage d'énergie au lithium-ion avancées. "
+        }
+      }
+    }
+  },
+  "commodities": {
+    "page_header": {
+      "title": "Marchandises",
+      "breadcrumbs": {
+        "1": "Accueil",
+        "2": "Produits",
+        "3": "Marchandises"
+      }
+    },
+    "blocks": {
+      "1": {
+        "title": "Naviguer sur les marchés mondiaux des matières premières nécessite une expertise et une précision",
+        "text": "Nous fournissons des contrats fiables pour l'alimentation du pétrole, du gaz, des dérivés de carburant, des équipements industriels, des pièces de rechange, des métaux, des structures métalliques, des produits agricoles et des produits alimentaires. "
+      }
+    }
+  },
+  "food": {
+    "page_header": {
+      "title": "Nourriture et agriculture",
+      "breadcrumbs": {
+        "1": "Accueil",
+        "2": "Produits",
+        "3": "Nourriture et agriculture"
+      }
+    },
+    "introduction": {
+      "title": "Introduction",
+      "text_1": "São Tomé et Príncipe sont un petit archipel dans le golfe de Guinée, connu pour son écosystème unique et sa riche biodiversité. ",
+      "subtitle_1": "Aspects positifs de Cacao de São Tomé et Príncipe",
+      "list_1": {
+        "title": "Conditions climatiques uniques:",
+        "text_1": "Le climat équatorial avec une humidité élevée et des températures stables fournit des conditions idéales pour la croissance du cacao.",
+        "text_2": "Les sols volcaniques riches en minéraux améliorent le profil de saveur du cacao."
+      },
+      "list_2": {
+        "title": "Pureté environnementale:",
+        "text_1": "Utilisation de méthodes agricoles naturelles.",
+        "text_2": "Un produit naturellement pur, cultivé sans OGM, produits chimiques ou pesticides!"
+      },
+      "list_3": {
+        "title": "Qualité élevée du produit:",
+        "text_1": "Utilisation de méthodes agricoles naturelles.",
+        "text_2": "Un produit naturellement pur, cultivé sans OGM, produits chimiques ou pesticides!"
+      },
+      "list_4": {
+        "title": "Méthodes de production traditionnelles:",
+        "text_1": "L'encouragement à la main pour garantir que seules les gousses mûres sont sélectionnées.",
+        "text_2": "Fermentation soigneuse et séchage au soleil pour préserver la saveur et l'arôme."
+      }
+    },
+    "advantages": {
+      "title": "Avantages par rapport aux autres régions",
+      "list_1": {
+        "title": "Par rapport à l'Afrique de l'Ouest:",
+        "text": "Contrairement à la production de masse au Ghana ou à la Côte d'Ivoire, Cacao de São Tomé se distingue par ses normes de meilleure qualité et organiques."
+      },
+      "list_2": {
+        "title": "Par rapport à l'Amérique du Sud:",
+        "text": "São Tomé Cacao offre une saveur de chocolat plus prononcée avec une acidité plus faible."
+      },
+      "list_3": {
+        "title": "Par rapport à l'Asie:",
+        "text": "São Tomé Cacao a un profil plus naturel et une certification écologique."
+      },
+      "list_4": {
+        "title": "Méthodes de production traditionnelles:",
+        "text_1": "L'encouragement à la main pour garantir que seules les gousses mûres sont sélectionnées.",
+        "text_2": "Fermentation soigneuse et séchage au soleil pour préserver la saveur et l'arôme."
+      },
+      "ecosystem": {
+        "title": "Écosystème et biosphère de São Tomé et Príncipe",
+        "list_1": {
+          "title": "Richesse de la biodiversité:",
+          "text_1": "La région est une réserve de biosphère de l'UNESCO.",
+          "text_2": "Les forêts tropicales luxuriantes agissent comme une barrière naturelle à la pollution."
+        },
+        "list_2": {
+          "title": "Production durable:",
+          "text_1": "Pratiques qui protègent l'environnement.",
+          "text_2": "Programmes soutenant les agriculteurs locaux."
+        }
+      }
+    },
+    "market": {
+      "title": "Valeur du marché et du produit",
+      "list_1": {
+        "title": "Produits des haricots cacao:",
+        "text_1": "Chocolat de qualité supérieure de haute qualité.",
+        "text_2": "Poudre de cacao pour les produits de confiserie.",
+        "text_3": "Cacao Butter pour l'industrie des cosmétiques."
+      },
+      "list_2": {
+        "title": "Valeur marchande:",
+        "text_1": "Cacao de São Tomé commande des prix plus élevés en raison de sa saveur unique et de ses normes biologiques.",
+        "text_2": "Demande croissante de produits écologiques en Europe et en Amérique du Nord."
+      },
+      "list_3": {
+        "title": "Positionnement du marché:",
+        "text_1": "Un produit pour les connaisseurs et les marques de niche.",
+        "text_2": "Populaire dans le chocolat haut de gamme et les industries des cosmétiques spécialisées."
+      },
+      "analysis": {
+        "title": "Analyse de marché",
+        "list_1": {
+          "title": "Importants majeurs:",
+          "text_1": "Europe (Suisse, France, Belgique).",
+          "text_2": "États-Unis (marques de chocolat biologique)."
+        },
+        "list_2": {
+          "title": "Concurrents:",
+          "text_1": "Régions clés: l'Amérique latine et l'Afrique.",
+          "text_2": "São Tomé se démarque de sa pureté écologique et de sa qualité supérieure."
+        }
+      }
+    },
+    "conclusion": {
+      "title": "Conclusion",
+      "text": "Le cacao de São Tomé et Príncipe n'est pas seulement un produit de la plus haute qualité mais aussi une contribution à la conservation de la nature et au soutien aux communautés locales. ",
+      "subtitle_1": {
+        "title": "Recommandations",
+        "text_1": "Investissez dans le marketing qui met en évidence l'origine écologique et unique du produit.",
+        "text_2": "Développer des partenariats avec des producteurs de chocolat et de cosmétiques premium.",
+        "text_3": "Organisez des événements de dégustation pour présenter la saveur exceptionnelle du produit."
+      }
+    }
+  },
+  "construction": {
+    "page_header": {
+      "title": "Équipement de construction",
+      "breadcrumbs": {
+        "1": "Accueil",
+        "2": "Produits",
+        "3": "Équipement de construction"
+      }
+    },
+    "text": "Chez O’Gem Canada, nous soutenons le développement durable avec un équipement de construction moderne et efficace conçu pour les infrastructures en agriculture, énergie et développement rural. "
+  },
+  "production": {
+    "page_header": {
+      "title": "Équipement de production",
+      "breadcrumbs": {
+        "1": "Accueil",
+        "2": "Produits",
+        "3": "Équipement de production"
+      }
+    },
+    "items": {
+      "1": {
+        "title": "La ligne de production pour les barres d'armature en fibre de verre ou en fibre de basalte.",
+        "text_1": "Notre équipement de production de renforcement en fibre de verre est à la pointe de la technologie, offrant une fiabilité et une productivité inégalées. ",
+        "text_2": "Toutes les technologies sont brevetées, garantissant non seulement l'efficacité la plus élevée pour votre investissement, mais aussi une garantie d'un avenir stable.",
+        "text_3": "De plus, notre équipement est fiable car nous utilisons des composants de fabricants de renommée mondiale dans sa production."
+      },
+      "2": {
+        "title": "Ligne de production professionnelle pour la fabrication du maillage de renforcement en fibre de verre",
+        "text_1": "Nous proposons d'acheter du matériel pour une entreprise à haut rendement dans la production de fibre de verre ou de fibre de basalte de renforcement de fibre.",
+        "text_2": "Notre équipement de fabrication de maillage de renforcement en fibre de verre est un équipement de nouvelle génération. ",
+        "text_3": "Toutes les technologies sont brevetées, garantissant non seulement l'efficacité la plus élevée de votre investissement, mais assurant également un avenir stable.",
+        "text_4": "De plus, notre équipement est fiable car nous utilisons des composants de fabricants de renommée mondiale dans sa production."
+      },
+      "3": {
+        "title": "La ligne de production pour les éléments de cadre incurvé en fibre de verre ou en fibre de basalte.",
+        "text_1": "Pour compléter votre usine de fabrication de matériaux composites, nous avons également développé un équipement pour produire des éléments de cadre incurvé en fibre de verre. ",
+        "text_2": "Si vous souhaitez que votre usine de fabrication de matériaux composite offre à vos clients une gamme complète de matériaux et rivalise avec d'autres fabricants, une ligne de production d'éléments incurvées est tout simplement essentielle."
+      }
+    },
+    "products": {
+      "1": {
+        "info": {
+          "block_1": {
+            "title": "Ligne de production pour les barres d'armature en fibre de verre ou en fibre de basalte.",
+            "text_1": "Notre équipement de production de barres d'armature en fibre de verre est à la pointe de la technologie, offrant à nos clients des avantages inégalés par rapport aux concurrents. ",
+            "text_2": "Toutes les technologies sont brevetées, garantissant non seulement le retour sur investissement le plus élevé, mais aussi la garantie d'un avenir stable.",
+            "text_3": "Nous utilisons des composants des principaux fabricants mondiaux dans notre production, assurant la fiabilité de l'équipement que nous produisons"
+          },
+          "block_2": {
+            "title": "Lors de l'achat d'équipement pour la production de barres d'armature en fibre de verre, notre entreprise fournit:",
+            "text_1": "Assistance pour développer un processus technologique complet (réglementations techniques, formulations).",
+            "text_2": "Consultation sur la sélection des installations de production, en considérant l'organisation des systèmes de ventilation.",
+            "text_3": "Installation d'équipements et réalisation de travaux de mise en service.",
+            "text_4": "Formation du personnel du client.",
+            "text_5": "Support technique par le biais de consultations continues par les spécialistes de notre entreprise."
+          }
+        },
+        "title_1": "Spécifications techniques",
+        "subtitle_1": "Spécifications techniques de la ligne de production de barres d'armature composite:",
+        "table_1": {
+          "row_1": {
+            "cell_1": "But:",
+            "cell_2": "Production de barres d'armature à partir de fibre de verre ou de fibre de basalte"
+          },
+          "row_2": {
+            "cell_1": "Diamètre des produits produits:",
+            "cell_2": "de 2 mm à 30 mm"
+          },
+          "row_3": {
+            "cell_1": "tension:",
+            "cell_2": "380 v / 50 Hz"
+          },
+          "row_4": {
+            "cell_1": "Pouvoir:",
+            "cell_2": "26 kW"
+          },
+          "row_5": {
+            "cell_1": "Productivité de la ligne:",
+            "cell_2": "3-18 mètres linéaires par minute"
+          },
+          "row_6": {
+            "cell_1": "Longueur:",
+            "cell_2": "45 m"
+          },
+          "row_7": {
+            "cell_1": "Largeur:",
+            "cell_2": "1,2 m"
+          },
+          "row_8": {
+            "cell_1": "Hauteur:",
+            "cell_2": "1,6 m"
+          }
+        },
+        "title_2": "Notre équipement est très productif!",
+        "subtitle_2": "Selon le type d'équipement choisi, il peut produire 2 ou 4 tiges simultanément.",
+        "text_1": "Les barres d'armature composites produites sur l'équipement proposé possèdent des qualités de résistance améliorées (en termes de résistance à la traction, à la flexion et à la rupture), très appréciée par les constructeurs professionnels. "
+      },
+      "2": {
+        "info": {
+          "block_1": {
+            "title": "Ligne de production professionnelle pour la fabrication du maillage de renforcement en fibre de verre",
+            "text_1": "Nous proposons du matériel pour une entreprise à haut rendement dans la production de fibre de verre ou de fibre de basalte de renforcement des fibres.",
+            "text_2": "Notre équipement pour la production de maillage de renforcement en fibre de verre est à la pointe de la technologie, fiable, hautement productif et sans précédent, vous offrant des avantages indéniables par rapport à vos concurrents.",
+            "text_3": "Toutes les technologies sont brevetées, garantissant non seulement l'efficacité la plus élevée de votre investissement, mais assurant également un avenir stable."
+          },
+          "block_2": {
+            "title": "Lors de l'achat d'équipement pour renforcer la production de maille, notre entreprise fournit:",
+            "text_1": "Assistance pour développer un processus technologique complet (réglementations techniques, formulations).",
+            "text_2": "Consultation sur la sélection des installations de production, en considérant l'organisation des systèmes de ventilation.",
+            "text_3": "Installation d'équipements et réalisation de travaux de mise en service.",
+            "text_4": "Formation du personnel du client.",
+            "text_5": "Support technique par le biais de consultations continues par les spécialistes de notre entreprise."
+          }
+        },
+        "title_1": "Spécifications techniques",
+        "subtitle_1": "Spécifications techniques de la ligne de production de barres d'armature composite:",
+        "table_1": {
+          "row_1": {
+            "cell_1": "But:",
+            "cell_2": "Production de maillage composite à partir de fibre de verre ou de fibre de basalte"
+          },
+          "row_2": {
+            "cell_1": "Diamètre des produits produits:",
+            "cell_2": "de 2 mm à 10 mm"
+          },
+          "row_3": {
+            "cell_1": "tension:",
+            "cell_2": "380 v / 50 Hz"
+          },
+          "row_4": {
+            "cell_1": "Cellule en maillage:",
+            "cell_2": "50х50, 100х100, 150х150, 200х200, 300х300"
+          }
+        },
+        "title_2": "Nous produisons deux types d'équipements pour fabriquer un maillage composite:",
+        "subtitle_2": "Production de maillage composite à partir de fibre de verre ou de fibre de basalte",
+        "table_2": {
+          "row_1": {
+            "cell_1": "But:",
+            "cell_2": "Équipement pour la production de maillage composite avec une largeur de 1 mètre."
+          },
+          "row_2": {
+            "cell_1": "Taille de la cellule de maillage:",
+            "cell_2": "50х50, 100х100, 150х150, 200х200"
+          },
+          "row_3": {
+            "cell_1": "Diamètres disponibles:",
+            "cell_2": "2-8"
+          },
+          "row_4": {
+            "cell_1": "Longueur de la machine:",
+            "cell_2": "18"
+          },
+          "row_5": {
+            "cell_1": "Hauteur:",
+            "cell_2": "1,8 m"
+          },
+          "row_6": {
+            "cell_1": "Largeur:",
+            "cell_2": "1,2 m"
+          },
+          "row_7": {
+            "cell_1": "Pouvoir:",
+            "cell_2": "35 квт"
+          },
+          "row_8": {
+            "cell_1": "Productivité de la ligne:",
+            "cell_2": "3-8 mètres linéaires par minute"
+          }
+        },
+        "subtitle_3": "Ligne pour la production de maillage de renforcement en fibre de verre, largeur 2 mètres.",
+        "table_3": {
+          "row_1": {
+            "cell_1": "But:",
+            "cell_2": "Équipement pour fabriquer un maillage composite avec une largeur de 2 mètres."
+          },
+          "row_2": {
+            "cell_1": "Taille de la cellule de maillage:",
+            "cell_2": "50х50, 100х100, 150х150, 200х200, 300х300"
+          },
+          "row_3": {
+            "cell_1": "Diamètres disponibles:",
+            "cell_2": "2-12"
+          },
+          "row_4": {
+            "cell_1": "Longueur de la machine:",
+            "cell_2": "28 m"
+          },
+          "row_5": {
+            "cell_1": "Hauteur:",
+            "cell_2": "1,8 m"
+          },
+          "row_6": {
+            "cell_1": "Largeur:",
+            "cell_2": "2,4 m"
+          },
+          "row_7": {
+            "cell_1": "Pouvoir:",
+            "cell_2": "45 kW"
+          },
+          "row_8": {
+            "cell_1": "Productivité de la ligne:",
+            "cell_2": "3-8 mètres linéaires par minute"
+          }
+        },
+        "text_1": "Notre équipement est très productif! "
+      },
+      "3": {
+        "info": {
+          "block_1": {
+            "title": "La ligne de production pour les éléments de cadre incurvé en fibre de verre ou en fibre de basalte.",
+            "text_1": "Pour établir une usine complète pour la production de matériaux composites, nous avons également développé un équipement pour la fabrication d'éléments incurvés du cadre de la fibre de verre. ",
+            "text_2": "Si vous souhaitez que votre centrale de matériaux composite offre une gamme complète de matériaux à vos clients et rivalise efficacement avec d'autres fabricants, une chaîne de production pour des éléments incurvées est essentielle."
+          }
+        },
+        "title_1": "Spécifications techniques",
+        "subtitle_1": "Spécifications techniques de la ligne de production pour les éléments courbes:",
+        "table_1": {
+          "row_1": {
+            "cell_1": "But:",
+            "cell_2": "Production de renforcement à partir de fibre de verre ou de fibre de basalte"
+          },
+          "row_2": {
+            "cell_1": "Longueur: ",
+            "cell_2": "16 m"
+          },
+          "row_3": {
+            "cell_1": "Largeur:",
+            "cell_2": "1,4 m"
+          },
+          "row_4": {
+            "cell_1": "Hauteur:",
+            "cell_2": "2 m"
+          },
+          "row_5": {
+            "cell_1": "tension:",
+            "cell_2": "380 V"
+          },
+          "row_6": {
+            "cell_1": "Pouvoir:",
+            "cell_2": "12 kW"
+          }
+        },
+        "text_1": "Les éléments incurvés composites produits sur l'équipement fourni possèdent des qualités de résistance améliorées (en termes de résistance à la traction, à la flexion et à la rupture), qui sont très appréciées par les constructeurs professionnels. "
+      }
+    }
+  },
+  "services": {
+    "page_header": {
+      "title": "Services",
+      "breadcrumbs": {
+        "1": "Accueil",
+        "2": "Services"
+      }
+    },
+    "items": {
+      "1": {
+        "title": "Normes de prestation de services et de qualité",
+        "text": "Notre assurance qualité est complète et appliquée dans toutes nos opérations, englobant l'intégralité du flux de valeur. "
+      },
+      "2": {
+        "title": "RESPONSABILITÉ",
+        "text": "En tant que préoccupation mondiale du commerce et de la distribution d'énergie, nous nous tenons responsables des normes les plus élevées de responsabilité environnementale et d'entreprise. "
+      },
+      "3": {
+        "title": "Comment nous opérons",
+        "text": "O’Gem Trading LP Les valeurs fondamentales sont l’excellence, l’intégrité et l’innovation. "
+      }
+    }
+  },
+  "policy": {
+    "page_header": {
+      "title": "Confidentialité et cookies",
+      "breadcrumbs": {
+        "1": "Accueil",
+        "2": "Confidentialité et cookies"
+      }
+    },
+    "title": "Politique de confidentialité",
+    "date_1": "Date d'entrée en vigueur : {{date}}",
+    "date_2": "Dernière mise à jour : {{date}}",
+    "text_1": "O’GEM Trading CA LP (« nous », « notre », « nos ») s’engage à protéger la vie privée et les données personnelles des individus qui visitent notre site web à l’adresse www.ogem.ca, conformément au Règlement général sur la protection des données (RGPD) (UE) 2016/679 et aux autres lois applicables en matière de protection des données.",
+    "block_1": {
+      "title": "1. Responsable du traitement",
+      "text_1": "O’GEM Trading CA LP",
+      "text_2": "Enregistrée en Ontario, Canada",
+      "text_3": "Email : info@ogem.ca"
+    },
+    "block_2": {
+      "title": "2. Données personnelles que nous collectons",
+      "text_1": "a) Fournies via des formulaires ou demandes de contact :",
+      "list_1": {
+        "item_1": "Nom complet",
+        "item_2": "Adresse e-mail",
+        "item_3": "Numéro de téléphone",
+        "item_4": "Nom de l'entreprise",
+        "item_5": "Tout contenu de message que vous soumettez"
+      },
+      "text_2": "b) Données collectées automatiquement (via cookies et outils d’analyse) :",
+      "list_2": {
+        "item_1": "Adresse IP",
+        "item_2": "Type et version du navigateur",
+        "item_3": "Informations sur l'appareil",
+        "item_4": "Pages visitées et durée de la session",
+        "item_5": "URL de provenance"
+      }
+    },
+    "block_3": {
+      "title": "3. Finalité et base juridique du traitement",
+      "text_1": "Nous traitons vos données personnelles pour les finalités suivantes, sur les bases juridiques suivantes :",
+      "list": {
+        "item_1": "Répondre aux formulaires de contact – Consentement (Art. 6(1)(a) RGPD)",
+        "item_2": "Fournir des services ou des offres – Nécessité contractuelle (Art. 6(1)(b) RGPD)",
+        "item_3": "Marketing et newsletters (facultatif) – Consentement (Art. 6(1)(a) RGPD)",
+        "item_4": "Sécurité du site web et analyses – Intérêt légitime (Art. 6(1)(f) RGPD)",
+        "item_5": "Conformité aux obligations légales – Obligation légale (Art. 6(1)(c) RGPD)"
+      }
+    },
+    "block_4": {
+      "title": "4. Utilisation des cookies",
+      "text_1": "Nous utilisons des cookies pour améliorer la fonctionnalité du site, analyser le trafic et personnaliser l’expérience utilisateur. Vous serez invité à donner votre consentement via une bannière de cookies lors de votre première visite. Vous pouvez ajuster ou retirer votre consentement à tout moment via les paramètres de votre navigateur."
+    },
+    "block_5": {
+      "title": "5. Partage et transferts de données",
+      "text_1": "Nous ne vendons ni ne louons les données personnelles. Nous pouvons les partager avec :",
+      "list_1": {
+        "item_1": "Fournisseurs de services informatiques et d’hébergement (sous contrats de traitement des données)",
+        "item_2": "Organismes légaux ou réglementaires lorsque requis",
+        "item_3": "Plateformes email/CRM (ex. : pour la gestion des formulaires ou communications)"
+      },
+      "text_2": "Transferts internationaux :\nSi les données sont transférées en dehors de l’UE, nous assurons des garanties appropriées (ex. : clauses contractuelles types)."
+    },
+    "block_6": {
+      "title": "6. Conservation des données",
+      "text_1": "Nous conservons vos données uniquement le temps nécessaire pour atteindre les objectifs pour lesquels elles ont été collectées, ou selon les exigences légales. Les données des formulaires de contact sont généralement conservées pendant 12 mois, sauf en cas de communication ultérieure."
+    },
+    "block_7": {
+      "title": "7. Vos droits selon le RGPD",
+      "list": {
+        "item_1": "Accéder à vos données personnelles",
+        "item_2": "Rectifier des données inexactes ou incomplètes",
+        "item_3": "Demander l'effacement (« droit à l'oubli »)",
+        "item_4": "Limiter ou s'opposer au traitement",
+        "item_5": "Portabilité des données",
+        "item_6": "Retirer votre consentement à tout moment",
+        "item_7": "Déposer une plainte auprès d’une autorité de contrôle"
+      },
+      "text_1": "Pour exercer vos droits, contactez-nous à info@ogem.ca."
+    },
+    "block_8": {
+      "title": "8. Sécurité des données",
+      "text_1": "Nous mettons en œuvre des mesures techniques et organisationnelles appropriées pour protéger les données personnelles contre tout accès, altération, divulgation ou destruction non autorisés."
+    },
+    "block_9": {
+      "title": "9. Formulaires de contact et communication par e-mail",
+      "text_1": "Si vous soumettez un formulaire sur notre site, vos données seront utilisées uniquement dans le but indiqué. Vos données ne seront pas utilisées à des fins de marketing sans consentement explicite."
+    },
+    "block_10": {
+      "title": "10. Modifications de cette politique de confidentialité",
+      "text_1": "Nous nous réservons le droit de mettre à jour cette politique. Toute modification sera publiée sur cette page avec une nouvelle date d'entrée en vigueur.",
+      "text_2": "Besoin d’aide ou souhaitez-vous vous désinscrire ? Écrivez-nous à : info@ogem.ca"
+    },
+    "cookie_policy": {
+      "title": "Politique relative aux cookies",
+      "text_1": "Cette politique relative aux cookies explique comment O’GEM Trading CA LP (« nous », « notre », ou « nos ») utilise les cookies et technologies similaires lorsque vous visitez notre site www.ogem.ca.",
+      "block_1": {
+        "title": "1. Que sont les cookies ?",
+        "text_1": "Les cookies sont de petits fichiers texte stockés sur votre appareil lorsque vous visitez un site web. Ils permettent au site de reconnaître votre appareil et de mémoriser vos actions et préférences au fil du temps."
+      },
+      "block_2": {
+        "title": "2. Types de cookies que nous utilisons",
+        "list": {
+          "item_1": "Strictement nécessaires : Nécessaires au fonctionnement du site et ne peuvent pas être désactivés.",
+          "item_2": "Analyse/Performance : Nous aident à comprendre comment les visiteurs utilisent notre site (ex. : Google Analytics).",
+          "item_3": "Préférence : Mémorisent vos paramètres et choix.",
+          "item_4": "Marketing : Suivent le comportement des visiteurs pour afficher des publicités pertinentes (uniquement avec consentement)."
+        }
+      },
+      "block_3": {
+        "title": "3. Consentement et contrôle des cookies",
+        "text_1": "Lors de votre première visite, nous affichons une bannière de cookies demandant votre consentement pour l'utilisation de cookies non essentiels. Vous pouvez :",
+        "list": {
+          "item_1": "Accepter tous les cookies",
+          "item_2": "Rejeter les cookies non essentiels",
+          "item_3": "Personnaliser vos préférences"
+        },
+        "text_2": "Vous pouvez également modifier ou retirer votre consentement à tout moment en ajustant les paramètres de votre navigateur ou en revisitant la bannière."
+      },
+      "block_4": {
+        "title": "4. Gestion des cookies",
+        "text_1": "La plupart des navigateurs web permettent de contrôler les cookies via leurs paramètres. Le blocage de certains types de cookies peut affecter votre expérience sur le site.",
+        "text_2": "En savoir plus :",
+        "links": {
+          "Chrome": "https://support.google.com/chrome/answer/95647",
+          "Firefox": "https://support.mozilla.org/en-US/kb/cookies-information-websites-store-on-your-computer",
+          "Safari": "https://support.apple.com/en-us/HT201265"
+        }
+      },
+      "block_5": {
+        "title": "5. Modifications de cette politique relative aux cookies",
+        "text_1": "Nous pouvons mettre à jour cette politique périodiquement. Toute modification sera publiée sur cette page avec la date mise à jour.",
+        "text_2": "Dernière mise à jour : {{date}}",
+        "text_3": "Contact : info@ogem.ca"
+      }
+    }
+  }
+}

@@ -1,0 +1,76 @@
+@use '@/styles/helpers' as *;
+
+.pageHeader {
+  background-color: var(--color-bg);
+
+  &Container {
+  }
+
+  &Inner {
+    padding-block: rem(32);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: rem(16);
+
+    @include tablet {
+      padding-block: rem(26);
+    }
+
+    @include mobile {
+      flex-direction: column;
+      align-items: start;
+      padding-block: rem(18);
+    }
+  }
+
+  &Title {
+    font-weight: 600;
+    font-size: rem(26);
+
+    @include tablet {
+      font-size: rem(20);
+    }
+  }
+
+  &Breadcrumbs {
+    flex-shrink: 0;
+    &List {
+      display: flex;
+      align-items: center;
+
+      @include  mobile {
+        flex-wrap: wrap;
+      }
+    }
+
+    &Item {
+      display: flex;
+      align-items: center;
+
+      font-weight: 500;
+      line-height: rem(28);
+
+      @include mobile {
+        font-size: rem(14);
+      }
+
+      &:not(:last-child) {
+        &:after {
+          content: '→';
+          display: inline-block;
+          margin-inline: rem(12);
+
+          @include mobile {
+            margin-inline: rem(8);
+          }
+        }
+      }
+
+      &:last-child {
+        font-weight: 600;
+        color: var(--color-orange);
+      }
+    }
+  }
+}

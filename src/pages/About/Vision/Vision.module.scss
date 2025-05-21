@@ -1,0 +1,80 @@
+@use '@/styles/helpers' as *;
+
+.vision {
+  background-color: var(--color-yellow-bg);
+
+  &Container {
+    padding-inline: 0 !important;
+    max-width: rem(1920);
+  }
+
+  &Inner {
+    display: flex;
+    align-items: center;
+    gap: rem(70);
+
+    @include desktop {
+      gap: 0;
+      flex-direction: column;
+      align-items: start;
+    }
+  }
+
+  &Image {
+    flex-shrink: 0;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    @include desktop {
+      height: rem(430);
+      width: 100%;
+    }
+
+    @include  mobile {
+      height: rem(212);
+    }
+  }
+
+  &Body {
+    max-width: rem(950);
+    padding-left: rem(20);
+
+    @include desktop {
+      padding: rem(40) rem(17);max-width: none;
+    }
+
+    @include  mobile {
+      padding: rem(40) rem(16);
+    }
+  }
+
+  &Title {
+    font-size: rem(26);
+    font-weight: 600;
+    margin-bottom: rem(38);
+
+    @include tablet {
+      font-size: rem(20);
+      margin-bottom: rem(20);
+    }
+    @include mobile {
+      margin-bottom: rem(26);
+    }
+  }
+
+
+  &Text {
+    font-size: rem(16);
+    font-weight: 500;
+    line-height: re(28);
+
+    @include tablet {
+      font-size: rem(14);
+      font-weight: rem(24);
+    }
+  }
+}

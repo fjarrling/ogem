@@ -1,0 +1,57 @@
+@use '@/styles/helpers' as *;
+
+.info {
+  background-color: var(--color-gray-bg);
+
+  &Inner {
+    padding-block: rem(50);
+
+    @include tablet {
+      padding-block: rem(40);
+    }
+
+    @include mobile-s {
+      padding-block: rem(28);
+    }
+  }
+
+  &Title {
+    margin-bottom: rem(26);
+    font-size: rem(26);
+    color: var(--color-red);
+    font-weight: 600;
+
+    @include tablet {
+      margin-bottom: rem(18);
+      font-size: rem(20);
+    }
+
+    @include mobile {
+      margin-bottom: rem(20);
+
+    }
+  }
+
+  &Text {
+    font-weight: 500;
+    line-height: rem(28);
+
+    &:not(:last-child) {
+      margin-bottom: rem(8);
+    }
+
+    @include tablet {
+      font-size: rem(14);
+      line-height: rem(24);
+      &:not(:last-child) {
+        margin-bottom: rem(14);
+      }
+    }
+
+    @include mobile {
+      &:not(:last-child) {
+        margin-bottom: rem(18);
+      }
+    }
+  }
+}

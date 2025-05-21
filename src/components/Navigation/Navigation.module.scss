@@ -1,0 +1,70 @@
+@use '@/styles/helpers' as *;
+
+.navigation {
+  &Button {
+    @include reset-button;
+    @include flex-center(true);
+    gap: rem(6);
+    transition-duration: var(--transition-duration);
+
+    @include hover {
+      color: var(--color-red);
+    }
+
+
+    &[data-state="open"] {
+      .navigationButtonIndicator {
+        transform: rotate(-180deg);
+      }
+    }
+
+    &Indicator {
+      transition-duration: var(--transition-duration);
+    }
+  }
+
+  &Dropdown {
+    border: none;
+    box-shadow: none;
+    padding: 0;
+    background-color: transparent;
+    z-index: 21;
+
+    &List {
+      padding: 0;
+      margin-inline: auto;
+      align-items: center;
+      border-radius: rem(20);
+      border: rem(1) solid var(--color-gray-light);
+      overflow: hidden;
+    }
+
+
+    &Item {
+      width: 100%;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      border-radius: 0;
+
+      &:not(:last-child) {
+        border-bottom: rem(1) solid var(--color-gray-light);
+      }
+
+    }
+
+    &Button {
+      @include reset-button;
+
+      width: 100%;
+      padding: rem(14);
+      background-color: var(--color-white);
+      text-align: start;
+      color: var(--color-black);
+
+      @include hover {
+        background-color: var(--color-yellow-bg);
+      }
+    }
+  }
+}

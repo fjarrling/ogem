@@ -1,0 +1,57 @@
+@use "@/styles/helpers" as *;
+
+.partners {
+  &Container {
+
+  }
+
+  &Inner {
+    padding-block: rem(60);
+
+    @include tablet {
+      padding-block: rem(40);
+    }
+
+  }
+
+  &Title {
+    margin-bottom: rem(32);
+    font-size: rem(26);
+    font-weight: 600;
+
+
+    @include tablet {
+      text-align: center;
+      font-size: rem(20);
+    }
+
+    @include mobile {
+      margin-bottom: rem(24);
+
+    }
+  }
+
+  &List {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    flex-wrap: wrap;
+    column-gap: rem(20);
+    row-gap: rem(20);
+  }
+
+  &Item {
+    text-align: center;
+    max-width: rem(192);
+    font-weight: 500;
+    line-height: rem(28);
+
+    @include mobile {
+      max-width: rem(128);
+      font-size: rem(10);
+      line-height: rem(16);
+    }
+  }
+
+}

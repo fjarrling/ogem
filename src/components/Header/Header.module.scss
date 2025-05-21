@@ -1,0 +1,165 @@
+@use '@/styles/helpers' as *;
+
+.header {
+  position: fixed;
+  width: 100%;
+  z-index: 20;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: var(--color-white);
+  transition: background-color var(--transition-duration);
+  box-shadow: 0px rem(10) rem(10) 0 rgba(146, 146, 146, 0.10);
+
+  &Inner {
+    display: flex;
+    align-items: center;
+    padding-block: rem(14);
+    gap: rem(31);
+
+    @include tablet {
+      padding-block: rem(19) rem(20);
+    }
+
+    @include mobile {
+      padding-block: rem(11) rem(12);
+    }
+  }
+
+  &Logo {
+    flex: 1;
+    flex-shrink: 0;
+
+    img {
+      width: rem(80);
+      height: rem(52);
+
+      @include tablet {
+        width: rem(63);
+        height: 40px;
+      }
+    }
+  }
+
+  &Menu {
+
+    @include mobile {
+      display: none;
+    }
+
+    &List {
+      display: flex;
+      align-items: center;
+      gap: rem(82);
+
+      @include laptop {
+        gap: rem(48);
+      }
+
+      @include tablet {
+        gap: rem(28);
+      }
+    }
+
+    &Item {
+      font-weight: 500;
+
+      @include tablet {
+        font-size: rem(12);
+      }
+    }
+
+    &Link {
+      display: flex;
+      align-items: center;
+      gap: rem(10);
+      padding-block: rem(6);
+
+
+      @include hover {
+        color: var(--color-red);
+      }
+
+      &.active {
+        color: var(--color-red);
+      }
+    }
+
+    // &Navigation {
+
+    //   background-color: transparent;
+    //   &List {
+    //     display: flex;
+    //     flex-direction: column;
+    //     // width: 100%;
+    //     max-width: none;
+    //     padding: 0;
+    //     border: rem(1) solid #d7d7d7;
+    //     overflow: hidden;
+    //   }
+
+    //   &Item {
+    //     max-width: none;
+    //     width: 100%;
+    //     white-space: nowrap;
+    //     padding: rem(14);
+    //   }
+    // }
+  }
+
+  &Buttons {
+    flex: 1;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: rem(28);
+
+    @include tablet {
+      gap: rem(14)
+    }
+  }
+
+  &BurgerButton {
+    @include reset-button;
+    @include square(rem(36));
+    @include flex-center;
+    flex-direction: column;
+    gap: rem(5);
+    display: none;
+    color: currentColor;
+
+    @include tablet {
+      display: flex;
+    }
+
+    @include hover {
+      .headerBurgerButtonLine {
+        background-color: var(--color-gray-light);
+      }
+    }
+
+    &Line {
+      width: rem(28);
+      height: rem(2);
+      border-radius: rem(2);
+      background-color: currentColor;
+      transition-duration: var(--transition-duration);
+    }
+
+    &.active {
+      .headerBurgerButtonLine {
+        &:nth-child(1) {
+          transform: translateY(rem(7)) rotate(45deg);
+        }
+
+        &:nth-child(2) {
+          opacity: 0;
+        }
+
+        &:nth-child(3) {
+          transform: translateY(rem(-7)) rotate(-45deg);
+        }
+      }
+    }
+  }
+}

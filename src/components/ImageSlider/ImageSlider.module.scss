@@ -1,0 +1,83 @@
+@use '@/styles/helpers' as *;
+
+.slider {
+  position: relative;
+
+  &Item {
+    width: 100%;
+    height: 100%;
+
+
+    @include  mobile-s {
+      height: rem(176);
+    }
+
+    &Image {
+      border-radius: rem(20);
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+
+    }
+  }
+
+  &Navigation {
+    position: absolute;
+    width: calc(100% - rem(50));
+    z-index: 10000;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    @include  tablet {
+      width: calc(100% - rem(25));
+
+    }
+
+    &Button {
+      @include square(rem(80));
+      @include flex-center(true);
+      background: rgba(255, 255, 255, 0.5);
+      border-radius: 50%;
+
+      @include hover {
+        svg path {
+          fill: var(--color-red);
+        }
+      }
+
+      @include tablet {
+        @include square(rem(40));
+
+      }
+
+      svg {
+        width: rem(20);
+        height: rem(40);
+
+        @include tablet {
+          width: rem(9);
+          height: rem(18);
+        }
+      }
+    }
+  }
+
+}
+
+
+.navButton {
+
+}
+
+
+.prevButton {
+  left: 20px;
+}
+
+.nextButton {
+  right: 20px;
+}

@@ -1,0 +1,48 @@
+@use "@/styles/helpers" as *;
+
+.notfound {
+  height: 100%;
+  padding-block: rem(68);
+
+  @include tablet {
+    padding-block: rem(86);
+  }
+
+  &Container {
+    height: 100%;
+  }
+
+  &Inner {
+    @include flex-center;
+    flex-direction: column;
+    height: 100%;
+    background-image: url("@/assets/icons/not-found.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: rem(923) rem(648);
+    padding-block: rem(230);
+    @include tablet {
+      background-size: rem(581) rem(408);
+      padding-block: rem(124) rem(89);
+
+    }
+    @include mobile {
+      background-size: rem(308) rem(216);
+      padding-block: rem(36);
+
+    }
+  }
+
+  &Title {
+    @include fluid-text(140, 78);
+    font-weight: 600;
+
+  }
+
+  &Subtitle {
+    @include fluid-text(38, 18);
+
+    font-weight: 500;
+    color: var(--color-red);
+  }
+}
