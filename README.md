@@ -1,54 +1,71 @@
-# React + TypeScript + Vite
+# O’Gem Canada - React/TypeScript фронтенд с Tailwind CSS и Radix UI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Этот проект представляет собой фронтенд-часть корпоративного сайта **O’Gem Canada** — торгово-логистической компании, работающей в сфере международной поставки сельскохозяйственной продукции и решений в области возобновляемой энергетики.
 
-Currently, two official plugins are available:
+## 🌐 О компании
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**O’Gem Canada** специализируется на:
 
-## Expanding the ESLint configuration
+- международных поставках зерновых, масличных культур и бобовых;
+- решениях в сфере солнечной энергетики и хранения энергии;
+- агроэнергетической инфраструктуре.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+Миссия компании — построение устойчивого и экологичного будущего через качественные продукты и инновации.
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+## 🛠️ Стек технологий
+
+Проект реализован с использованием современных технологий:
+
+### 🧱 Основное
+- **React 19** — библиотека для построения интерфейсов
+- **TypeScript** — строго типизированный JavaScript
+- **Vite** — высокоскоростной сборщик
+- **Tailwind CSS 4** — утилитарный CSS-фреймворк
+- **SASS** — препроцессор для кастомных стилей
+
+### 🌍 Интернационализация
+- **i18next** + **react-i18next** — поддержка мультиязычного интерфейса
+- **i18next-browser-languagedetector** — автоматическое определение языка
+
+### 🧩 UI и компоненты
+- **Radix UI** — доступные, кастомизируемые интерфейсные компоненты (Accordion, Dialog, Dropdown и др.)
+- **lucide-react** — современный набор иконок
+
+### 📄 Формы и валидация
+- **React Hook Form** — управление состоянием форм
+- **Zod** — валидация данных
+- **@hookform/resolvers** — интеграция валидации в формы
+
+### 🔀 Роутинг
+- **React Router DOM v7** — маршрутизация в SPA-приложениях
+
+### 🖼️ Дополнительно
+- **Swiper** — слайдер/карусель
+- **clsx**, **class-variance-authority** — управление Tailwind-классами
+- **vite-plugin-svgr** — импорт SVG как React-компоненты
+
+### 🧪 Качество кода
+- **ESLint** + **TypeScript ESLint**
+- **@vitejs/plugin-react**
+
+## 🚀 Запуск проекта
+
+```bash
+git clone https://github.com/ваш-юзернейм/ogem-canada-frontend.git
+cd ogem-canada-frontend
+npm install
+npm run dev
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 🧑‍💼 Автор
+Разработано как часть моего портфолио — Косян Эдуард
+📫 Связаться: fjarrling@gmail.com, +79996502250
 
-```js
-// eslint.config.ts
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+## 📄 Лицензия
+
+Проект предназначен только для демонстрационных целей.
+Все права на бренд, контент и логотипы принадлежат компании O’Gem Canada.
+
+
+
