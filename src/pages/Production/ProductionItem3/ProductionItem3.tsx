@@ -1,5 +1,3 @@
-import Header from "@/components/Header/Header.tsx";
-import Footer from "@/components/Footer/Footer.tsx";
 import PageHeader from "@/components/PageHeader/PageHeader.tsx";
 import {useTranslation} from "react-i18next";
 import styles from '../ProductionItem.module.scss';
@@ -23,76 +21,74 @@ const ProductionItem3 = () => {
   const downloadLink = "/downloads/FRP-Basalt-Bent-2024.pdf";
 
   return (
-    <>
-      <Header/>
-      <main>
-        <PageHeader
-          title={t("production.page_header.title")}
-          breadcrumbs={[
-            {label: t("production.page_header.breadcrumbs.1"), link: "/"},
-            {label: t("production.page_header.breadcrumbs.2"), link: "/products"},
-            {label: t("production.page_header.breadcrumbs.3"), link: "/products/production"},
-          ]}
-        />
-        <section className={styles.product}>
-          <div className={`${styles.productContainer} container`}>
-            <div className={styles.productInner}>
-              <div className={styles.productImage}>
-                <img src={heroImage} alt="product"/>
-              </div>
 
-              <div className={styles.productInfo}>
-                <div className={styles.productInfoBlock}>
-                  <h3 className={styles.productInfoBlockTitle}>{t("production.products.3.info.block_1.title")}</h3>
-                  <p className={styles.productInfoBlockText}>{t("production.products.3.info.block_1.text_1")}</p>
-                  <p className={styles.productInfoBlockText}>{t("production.products.3.info.block_1.text_2")}</p>
-                </div>
-              </div>
-
-              <h3 className={styles.productTitle}>{t("production.products.3.title_1")}</h3>
-              <div className={styles.productSubtitle}>{t("production.products.3.subtitle_1")}</div>
-              <table className={styles.productTable}>
-                <tbody>
-                <tr>
-                  <td>{t("production.products.3.table_1.row_1.cell_1")}</td>
-                  <td>{t("production.products.3.table_1.row_1.cell_2")}</td>
-                </tr>
-                <tr>
-                  <td>{t("production.products.3.table_1.row_2.cell_1")}</td>
-                  <td>{t("production.products.3.table_1.row_2.cell_2")}</td>
-                </tr>
-                <tr>
-                  <td>{t("production.products.3.table_1.row_3.cell_1")}</td>
-                  <td>{t("production.products.3.table_1.row_3.cell_2")}</td>
-                </tr>
-                <tr>
-                  <td>{t("production.products.3.table_1.row_4.cell_1")}</td>
-                  <td>{t("production.products.3.table_1.row_4.cell_2")}</td>
-                </tr>
-                <tr>
-                  <td>{t("production.products.3.table_1.row_5.cell_1")}</td>
-                  <td>{t("production.products.3.table_1.row_5.cell_2")}</td>
-                </tr>
-                <tr>
-                  <td>{t("production.products.3.table_1.row_6.cell_1")}</td>
-                  <td>{t("production.products.3.table_1.row_6.cell_2")}</td>
-                </tr>
-                </tbody>
-              </table>
-              <p className={styles.productText}>{t("production.products.3.text_1")}</p>
-              <ImageSlider images={sliderImages}/>
-              <Button className={styles.productDownloadButton} asChild={true} variant="withIcon">
-                <a href={downloadLink} download>
-                  <DownloadIcon/>
-                  {t('buttons.download_presentation')}
-                </a>
-              </Button>
+    <main>
+      <PageHeader
+        title={t("production.page_header.title")}
+        breadcrumbs={[
+          {label: t("production.page_header.breadcrumbs.1"), link: "/"},
+          {label: t("production.page_header.breadcrumbs.2"), link: "/products"},
+          {label: t("production.page_header.breadcrumbs.3"), link: "/products/production"},
+        ]}
+      />
+      <section className={styles.product}>
+        <div className={`${styles.productContainer} container`}>
+          <div className={styles.productInner}>
+            <div className={styles.productImage}>
+              <img src={heroImage} alt="product"/>
             </div>
+
+            <div className={styles.productInfo}>
+              <div className={styles.productInfoBlock}>
+                <h3 className={styles.productInfoBlockTitle}>{t("production.products.3.info.block_1.title")}</h3>
+                <p className={styles.productInfoBlockText}>{t("production.products.3.info.block_1.text_1")}</p>
+                <p className={styles.productInfoBlockText}>{t("production.products.3.info.block_1.text_2")}</p>
+              </div>
+            </div>
+
+            <h3 className={styles.productTitle}>{t("production.products.3.title_1")}</h3>
+            <div className={styles.productSubtitle}>{t("production.products.3.subtitle_1")}</div>
+            <table className={styles.productTable}>
+              <tbody>
+              <tr>
+                <td>{t("production.products.3.table_1.row_1.cell_1")}</td>
+                <td>{t("production.products.3.table_1.row_1.cell_2")}</td>
+              </tr>
+              <tr>
+                <td>{t("production.products.3.table_1.row_2.cell_1")}</td>
+                <td>{t("production.products.3.table_1.row_2.cell_2")}</td>
+              </tr>
+              <tr>
+                <td>{t("production.products.3.table_1.row_3.cell_1")}</td>
+                <td>{t("production.products.3.table_1.row_3.cell_2")}</td>
+              </tr>
+              <tr>
+                <td>{t("production.products.3.table_1.row_4.cell_1")}</td>
+                <td>{t("production.products.3.table_1.row_4.cell_2")}</td>
+              </tr>
+              <tr>
+                <td>{t("production.products.3.table_1.row_5.cell_1")}</td>
+                <td>{t("production.products.3.table_1.row_5.cell_2")}</td>
+              </tr>
+              <tr>
+                <td>{t("production.products.3.table_1.row_6.cell_1")}</td>
+                <td>{t("production.products.3.table_1.row_6.cell_2")}</td>
+              </tr>
+              </tbody>
+            </table>
+            <p className={styles.productText}>{t("production.products.3.text_1")}</p>
+            <ImageSlider images={sliderImages}/>
+            <Button className={styles.productDownloadButton} asChild={true} variant="withIcon">
+              <a href={downloadLink} download>
+                <DownloadIcon/>
+                {t('buttons.download_presentation')}
+              </a>
+            </Button>
           </div>
-        </section>
-      </main>
-      <Footer/>
-    </>
+        </div>
+      </section>
+    </main>
+
   );
 };
 

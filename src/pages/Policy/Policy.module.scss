@@ -66,7 +66,8 @@
       gap: rem(12);
 
       svg {
-        @include square(rem(44))
+        @include square(rem(44));
+        color: var(--color-white);
       }
     }
   }
@@ -78,7 +79,7 @@
       object-fit: cover;
     }
 
-    @include  mobile-s {
+    @include mobile-s {
       height: rem(240);
     }
   }

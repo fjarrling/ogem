@@ -1,5 +1,3 @@
-import Header from "@/components/Header/Header.tsx";
-import Footer from "@/components/Footer/Footer.tsx";
 import PageHeader from "@/components/PageHeader/PageHeader.tsx";
 import {useTranslation} from "react-i18next";
 import styles from "./Products.module.scss";
@@ -56,56 +54,54 @@ export default function About() {
   ]
 
   return (
-    <>
-      <Header/>
-      <main>
-        <PageHeader
-          title={t('products.page_header.title')}
-          breadcrumbs={[
-            {
-              label: `${t('products.page_header.breadcrumbs.1')}`,
-              link: '/'
-            },
-            {
-              label: `${t('products.page_header.breadcrumbs.2')}`,
-              link: '/products'
-            }
-          ]}
-        />
-        <section className={styles.products}>
-          <div className={`${styles.productsContainer} container`}>
-            <div className={styles.productsInner}>
-              <ul className={styles.productsList}>
-                {
-                  products.map((product, index) => {
-                    return (
-                      <li key={index} className={styles.productsItem}>
-                        <img className={styles.productsItemImage}
-                             src={product.image}
-                             alt=""
-                        />
-                        <div className={styles.productsItemBody}>
-                          <h3 className={styles.productsItemTitle}>{t(`products.${product.key}.title`)}</h3>
-                          <p className={styles.productsItemText}>{t(`products.${product.key}.text`)}</p>
-                          <Button className={styles.productsItemButton} variant="transparent" asChild>
-                            <NavLink
-                              to={product.to}
-                            >
-                              {t('buttons.read_more')}
 
-                            </NavLink>
-                          </Button>
-                        </div>
-                      </li>
-                    )
-                  })
-                }
-              </ul>
-            </div>
+    <main>
+      <PageHeader
+        title={t('products.page_header.title')}
+        breadcrumbs={[
+          {
+            label: `${t('products.page_header.breadcrumbs.1')}`,
+            link: '/'
+          },
+          {
+            label: `${t('products.page_header.breadcrumbs.2')}`,
+            link: '/products'
+          }
+        ]}
+      />
+      <section className={styles.products}>
+        <div className={`${styles.productsContainer} container`}>
+          <div className={styles.productsInner}>
+            <ul className={styles.productsList}>
+              {
+                products.map((product, index) => {
+                  return (
+                    <li key={index} className={styles.productsItem}>
+                      <img className={styles.productsItemImage}
+                           src={product.image}
+                           alt=""
+                      />
+                      <div className={styles.productsItemBody}>
+                        <h3 className={styles.productsItemTitle}>{t(`products.${product.key}.title`)}</h3>
+                        <p className={styles.productsItemText}>{t(`products.${product.key}.text`)}</p>
+                        <Button className={styles.productsItemButton} variant="transparent" asChild>
+                          <NavLink
+                            to={product.to}
+                          >
+                            {t('buttons.read_more')}
+
+                          </NavLink>
+                        </Button>
+                      </div>
+                    </li>
+                  )
+                })
+              }
+            </ul>
           </div>
-        </section>
-      </main>
-      <Footer/>
-    </>
+        </div>
+      </section>
+    </main>
+
   )
 }
