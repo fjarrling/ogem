@@ -50,13 +50,42 @@ export default function AppealDialog({isOpen, isOpenToggle}: AppealDialogProps) 
     register,
     handleSubmit,
     control,
-    formState: {errors},
+    formState: {errors, isSubmitting, isSubmitSuccessful},
   } = useForm<AppealFormData>({
     resolver: zodResolver(formSchema),
   });
 
-  const onSubmit = (data: AppealFormData) => {
-    console.log(data);
+  const onSubmit = async (data: AppealFormData) => {
+    const payload = {
+      to: "office@ogem.ca",
+      subject: "Сообщение из формы обратной связи ogem.ca",
+      name: data.fullName,
+      company: "",
+      email: data.email,
+      phone: data.phone,
+      comment: data.message || "",
+    };
+
+    try {
+      const response = await fetch("https://api.ogem.ca/send-email", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(payload),
+      });
+
+      if (!response.ok) {
+        // const errorData = await response.json();
+        // console.error("Ошибка при отправке:", errorData);
+
+      } else {
+        // console.log("Успешно отправлено!");
+
+      }
+    } catch (error) {
+      // console.error("Ошибка сети:", error);
+    }
   };
 
 
@@ -113,7 +142,13 @@ export default function AppealDialog({isOpen, isOpenToggle}: AppealDialogProps) 
             />
           </div>
           {errors.consent && <span className={styles.errorSubmit}>{errors.consent.message}</span>}
-          <Button variant="black" className={styles.submit}>{t('forms.submit')}</Button>
+          <Button variant="black" className={styles.submit} disabled={isSubmitting}>
+            {isSubmitting
+              ? t('forms.submitting')
+              : isSubmitSuccessful
+                ? t('forms.submit_success')
+                : t('forms.submit')}
+          </Button>
         </form>
       </DialogContent>
     </Dialog>

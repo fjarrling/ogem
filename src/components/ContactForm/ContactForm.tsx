@@ -47,13 +47,42 @@ const ContactForm = () => {
     register,
     handleSubmit,
     control,
-    formState: {errors},
+    formState: {errors, isSubmitting, isSubmitSuccessful},
   } = useForm<ContactFormData>({
     resolver: zodResolver(formSchema),
   });
 
-  const onSubmit = (data: ContactFormData) => {
-    console.log(data);
+  const onSubmit = async (data: ContactFormData) => {
+    const payload = {
+      to: "office@ogem.ca",
+      subject: "Сообщение из формы обратной связи ogem.ca",
+      name: data.fullName,
+      company: data.organizationName,
+      email: data.email,
+      phone: data.phone,
+      comment: data.message || "",
+    };
+
+    try {
+      const response = await fetch("https://api.ogem.ca/send-email", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(payload),
+      });
+
+      if (!response.ok) {
+        // const errorData = await response.json();
+        // console.error("Ошибка при отправке:", errorData);
+
+      } else {
+        // console.log("Успешно отправлено!");
+
+      }
+    } catch (error) {
+      // console.error("Ошибка сети:", error);
+    }
   };
 
   return (
@@ -72,7 +101,8 @@ const ContactForm = () => {
 
         <div className={styles.field}>
           <Label htmlFor="organizationName">{t('forms.organization_name.label')}</Label>
-          <Input className={errors.organizationName ? styles.inputError : ''} id="organizationName" {...register("organizationName")} />
+          <Input className={errors.organizationName ? styles.inputError : ''}
+                 id="organizationName" {...register("organizationName")} />
           {errors.organizationName && <span className={styles.error}>{errors.organizationName.message}</span>}
         </div>
       </div>
@@ -114,7 +144,13 @@ const ContactForm = () => {
         />
       </div>
       {errors.consent && <span className={styles.errorSubmit}>{errors.consent.message}</span>}
-      <Button variant="black" className={styles.submit}>{t('forms.submit')}</Button>
+      <Button variant="black" className={styles.submit} disabled={isSubmitting}>
+        {isSubmitting
+          ? t('forms.submitting')
+          : isSubmitSuccessful
+            ? t('forms.submit_success')
+            : t('forms.submit')}
+      </Button>
     </form>
   );
 };

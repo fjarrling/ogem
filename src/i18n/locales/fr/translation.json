@@ -67,7 +67,9 @@
       "label": "En soumettant une demande, vous consentez au traitement de vos données personnelles",
       "error": "Vous devez consentir avant de soumettre"
     },
-    "submit": "Envoyer"
+    "submit": "Envoyer",
+    "submitting": "Envoi en cours...",
+    "submit_success": "Votre demande a été envoyée avec succès !"
   },
   "emails": {
     "support": "support@ogem.uk"

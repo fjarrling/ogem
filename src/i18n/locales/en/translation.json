@@ -67,7 +67,9 @@
       "label": "By submitting an application, you consent to the processing of your personal data",
       "error": "You must consent before submitting"
     },
-    "submit": "Send"
+    "submit": "Submit",
+    "submitting": "Submitting...",
+    "submit_success": "Your request has been successfully sent!"
   },
   "emails": {
     "support": "support@ogem.uk"

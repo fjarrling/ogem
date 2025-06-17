@@ -1,4 +1,4 @@
-import {To} from 'react-router-dom'; // Импортируем тип
+import {To} from 'react-router-dom';
 
 export type LinkItem = {
   type: 'link';

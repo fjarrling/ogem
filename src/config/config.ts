@@ -1,4 +1,4 @@
-import type {MenuItem, NavigationLink} from '@/types/config.types.ts';
+import type { MenuItem, NavigationLink } from '@/types/config.types.ts'
 
 export const navigationMenu: MenuItem[] = [
   {
