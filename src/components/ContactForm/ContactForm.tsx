@@ -73,15 +73,15 @@ const ContactForm = () => {
       });
 
       if (!response.ok) {
-        // const errorData = await response.json();
-        // console.error("Ошибка при отправке:", errorData);
+        const errorData = await response.json();
+        console.error("Ошибка при отправке:", errorData);
 
       } else {
-        // console.log("Успешно отправлено!");
+        console.log("Успешно отправлено!");
 
       }
     } catch (error) {
-      // console.error("Ошибка сети:", error);
+      console.error("Ошибка сети:", error);
     }
   };
 
